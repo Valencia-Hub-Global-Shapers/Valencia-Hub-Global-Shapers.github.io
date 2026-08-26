@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "es": "Horta Urbana",
+      "en": "Urban Orchard",
+      "val": "Horta Urbana"
+    },
+    "image": "/public/projects/horta-urbana.jpg",
+    "description": {
+      "es": "Recuperamos tres solares abandonados en Russafa y Benimaclet para convertirlos en huertos comunitarios gestionados por vecinos y escuelas cercanas.",
+      "en": "We reclaimed three abandoned plots in Russafa and Benimaclet, turning them into community orchards run by neighbours and nearby schools.",
+      "val": "Vam recuperar tres solars abandonats a Russafa i Benimaclet per a convertir-los en horts comunitaris gestionats per veïns i escoles pròximes."
+    },
+    "peopleImpacted": 1200,
+    "status": "completed"
+  },
+  {
+    "id": 2,
+    "name": {
+      "es": "Riada Circular",
+      "en": "Circular Flood Recovery",
+      "val": "Riuada Circular"
+    },
+    "image": "/public/projects/riada-circular.jpg",
+    "description": {
+      "es": "Programa de reconstrucción con economía circular en zonas afectadas por la DANA, recuperando materiales y formando a cuadrillas locales.",
+      "en": "A circular-economy rebuilding programme in areas hit by the flash floods, recovering materials and training local work crews.",
+      "val": "Programa de reconstrucció amb economia circular en zones afectades per la DANA, recuperant materials i formant quadrilles locals."
+    },
+    "peopleImpacted": 3400,
+    "status": "ongoing"
+  },
+  {
+    "id": 3,
+    "name": {
+      "es": "Codi Jove",
+      "en": "Youth Code",
+      "val": "Codi Jove"
+    },
+    "image": "/public/projects/codi-jove.jpg",
+    "description": {
+      "es": "Talleres gratuitos de programación y pensamiento computacional para adolescentes de institutos públicos de la periferia de Valencia.",
+      "en": "Free coding and computational-thinking workshops for teenagers from public schools on the outskirts of Valencia.",
+      "val": "Tallers gratuïts de programació i pensament computacional per a adolescents d'instituts públics de la perifèria de València."
+    },
+    "peopleImpacted": 560,
+    "status": "ongoing"
+  },
+  {
+    "id": 4,
+    "name": {
+      "es": "Mar Neta",
+      "en": "Clean Sea",
+      "val": "Mar Neta"
+    },
+    "image": "/public/projects/mar-neta.jpg",
+    "description": {
+      "es": "Jornadas mensuales de limpieza en la playa de la Malva-rosa junto a asociaciones locales, con datos de residuos enviados a un observatorio europeo.",
+      "en": "Monthly clean-up days at Malva-rosa beach with local associations, feeding waste data into a European monitoring network.",
+      "val": "Jornades mensuals de neteja a la platja de la Malva-rosa junt amb associacions locals, amb dades de residus enviades a un observatori europeu."
+    },
+    "peopleImpacted": 890,
+    "status": "completed"
+  },
+  {
+    "id": 5,
+    "name": {
+      "es": "Impulsa Rural",
+      "en": "Rural Boost",
+      "val": "Impulsa Rural"
+    },
+    "image": "/public/projects/impulsa-rural.jpg",
+    "description": {
+      "es": "Mentoría para emprendedores de la Valencia interior que quieren digitalizar negocios agroalimentarios de proximidad.",
+      "en": "Mentoring for entrepreneurs from inland Valencia looking to digitalise local agri-food businesses.",
+      "val": "Mentoria per a emprenedors de la València interior que volen digitalitzar negocis agroalimentaris de proximitat."
+    },
+    "peopleImpacted": 150,
+    "status": "upcoming"
+  },
+  {
+    "id": 6,
+    "name": {
+      "es": "Ciutat Accessible",
+      "en": "Accessible City",
+      "val": "Ciutat Accessible"
+    },
+    "image": "/public/projects/ciutat-accessible.jpg",
+    "description": {
+      "es": "Mapeo ciudadano de barreras arquitectónicas en el centro histórico, en colaboración con entidades de personas con diversidad funcional.",
+      "en": "A citizen-led mapping of architectural barriers in the historic centre, run with organisations representing people with disabilities.",
+      "val": "Mapatge ciutadà de barreres arquitectòniques al centre històric, en col·laboració amb entitats de persones amb diversitat funcional."
+    },
+    "peopleImpacted": 2100,
+    "status": "upcoming"
+  }
+]

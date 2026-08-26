@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Laura Ferrer",
+    "photo": "/public/team/laura-ferrer.jpg",
+    "role": {
+      "es": "Curadora del Hub",
+      "en": "Hub Curator",
+      "val": "Curadora del Hub"
+    },
+    "bio": {
+      "es": "Laura lidera el hub desde 2024. Ingeniera ambiental de formación, conecta la agenda del Foro Económico Mundial con proyectos reales en los barrios de Valencia.",
+      "en": "Laura has led the hub since 2024. An environmental engineer by training, she connects the World Economic Forum's agenda with real projects in Valencia's neighbourhoods.",
+      "val": "Laura lidera el hub des de 2024. Enginyera ambiental de formació, connecta l'agenda del Fòrum Econòmic Mundial amb projectes reals als barris de València."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Marc Ibáñez",
+    "photo": "/public/team/marc-ibanez.jpg",
+    "role": {
+      "es": "Curador Adjunto",
+      "en": "Deputy Curator",
+      "val": "Curador Adjunt"
+    },
+    "bio": {
+      "es": "Marc coordina las alianzas institucionales del hub. Antes de sumarse a los Shapers trabajó en movilidad urbana sostenible para el Ayuntamiento de Valencia.",
+      "en": "Marc coordinates the hub's institutional partnerships. Before joining the Shapers he worked on sustainable urban mobility for the Valencia City Council.",
+      "val": "Marc coordina les aliances institucionals del hub. Abans d'unir-se als Shapers va treballar en mobilitat urbana sostenible per a l'Ajuntament de València."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Nerea Soler",
+    "photo": "/public/team/nerea-soler.jpg",
+    "role": {
+      "es": "Responsable de Proyectos",
+      "en": "Head of Projects",
+      "val": "Responsable de Projectes"
+    },
+    "bio": {
+      "es": "Nerea diseña y da seguimiento a cada proyecto del hub, desde la idea inicial hasta el impacto medible. Es economista y especialista en innovación social.",
+      "en": "Nerea designs and tracks every project the hub runs, from first idea to measurable impact. She is an economist specialising in social innovation.",
+      "val": "Nerea dissenya i fa seguiment de cada projecte del hub, des de la idea inicial fins a l'impacte mesurable. És economista i especialista en innovació social."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Pau Vidal",
+    "photo": "/public/team/pau-vidal.jpg",
+    "role": {
+      "es": "Responsable de Comunicación",
+      "en": "Head of Communications",
+      "val": "Responsable de Comunicació"
+    },
+    "bio": {
+      "es": "Pau cuenta las historias del hub hacia fuera y dentro de la red global de Shapers. Es periodista y ha cubierto innovación y clima en medios valencianos.",
+      "en": "Pau tells the hub's stories, both publicly and across the global Shapers network. He is a journalist who has covered innovation and climate for Valencian media.",
+      "val": "Pau conta les històries del hub cap a fora i dins de la xarxa global de Shapers. És periodista i ha cobert innovació i clima en mitjans valencians."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Alba Montoro",
+    "photo": "/public/team/alba-montoro.jpg",
+    "role": {
+      "es": "Responsable de Alianzas",
+      "en": "Head of Partnerships",
+      "val": "Responsable d'Aliances"
+    },
+    "bio": {
+      "es": "Alba abre puertas entre el hub, empresas y administraciones públicas. Trabaja en el sector energético y cree en la colaboración público-privada.",
+      "en": "Alba opens doors between the hub, companies, and public administrations. She works in the energy sector and believes in public-private collaboration.",
+      "val": "Alba obri portes entre el hub, empreses i administracions públiques. Treballa en el sector energètic i creu en la col·laboració publicoprivada."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Iván Peris",
+    "photo": "/public/team/ivan-peris.jpg",
+    "role": {
+      "es": "Tesorero",
+      "en": "Treasurer",
+      "val": "Tresorer"
+    },
+    "bio": {
+      "es": "Iván gestiona las finanzas y la sostenibilidad del hub como entidad de voluntariado. Es consultor financiero y forma parte del hub desde su fundación.",
+      "en": "Iván manages the hub's finances and sustainability as a volunteer-run entity. He is a financial consultant and has been part of the hub since it was founded.",
+      "val": "Iván gestiona les finances i la sostenibilitat del hub com a entitat de voluntariat. És consultor financer i forma part del hub des de la seua fundació."
+    }
+  }
+]

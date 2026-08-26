@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "lang": "en",
+    "label": "EN"
+  },
+  "nav": {
+    "hub": "The Hub",
+    "wef": "WEF",
+    "team": "Team",
+    "projects": "Projects",
+    "join": "Join Us"
+  },
+  "hero": {
+    "eyebrow": "Global Shapers Community \u2014 Valencia Hub",
+    "headline": "Local ideas. World Economic Forum backing. Real impact on Valencia.",
+    "intro": "We are a volunteer-run hub of young people turning Valencia's most pressing challenges into projects that work \u2014 connected to a network of hubs the World Economic Forum supports in over 150 countries.",
+    "ctaProjects": "View our projects",
+    "ctaTeam": "Meet the team"
+  },
+  "ticker": {
+    "phrase1": "Local ideas",
+    "phrase2": "Global support",
+    "phrase3": "Real impact"
+  },
+  "stats": {
+    "shapers": "Active Shapers",
+    "nationalities": "Nationalities in the hub",
+    "projects": "Projects driven",
+    "founded": "Founding year"
+  },
+  "about": {
+    "eyebrow": "What the hub is",
+    "title": "A civic engine run by Valencia's own young people",
+    "body1": "The Valencia Hub is part of the Global Shapers Community, an initiative of the World Economic Forum bringing together people aged 18\u201333 who are already active in their cities. Every member volunteers their time alongside their studies or job.",
+    "body2": "We choose local problems \u2014 housing, climate, mobility, education \u2014 and design projects with the people affected by them, using the training, network, and visibility the global community provides.",
+    "point1Title": "Volunteer-run",
+    "point1Body": "No one draws a salary. Every hour comes from members' own time.",
+    "point2Title": "Youth-led",
+    "point2Body": "Every Shaper is between 18 and 33 and leads their own projects.",
+    "point3Title": "Local impact",
+    "point3Body": "Projects are designed with and for Valencia's neighbourhoods.",
+    "point4Title": "Global network",
+    "point4Body": "Backed by hubs and resources in over 150 countries."
+  },
+  "wef": {
+    "eyebrow": "Our connection to the World Economic Forum",
+    "title": "One thread, from Geneva to your street",
+    "body": "The Valencia Hub is an officially recognised chapter of the Global Shapers Community, the World Economic Forum's youth initiative. That affiliation gives us training, funding opportunities, and a seat at conversations that shape global policy \u2014 which we bring straight back to Valencia.",
+    "node1": "World Economic Forum",
+    "node1Sub": "Sets the global agenda and convenes leaders in Davos and beyond",
+    "node2": "Global Shapers Community",
+    "node2Sub": "The Forum's network of young civic leaders, founded in 2011",
+    "node3": "Hubs worldwide",
+    "node3Sub": "Over 450 city-based hubs on every continent",
+    "node4": "Valencia Hub",
+    "node4Sub": "Our chapter, driving projects across the city"
+  },
+  "social": {
+    "eyebrow": "Follow the hub",
+    "title": "Stay close to what we're building"
+  },
+  "team": {
+    "eyebrow": "Who we are",
+    "title": "The people behind the hub",
+    "teaserBody": "A small volunteer committee coordinates the hub day to day \u2014 projects, partnerships, communications, and the books \u2014 while every one of our Shapers leads work of their own.",
+    "cta": "Meet the full team",
+    "modalCloseLabel": "Close"
+  },
+  "projects": {
+    "eyebrow": "What we've driven",
+    "title": "Projects, from idea to impact",
+    "teaserBody": "From neighbourhood orchards to post-flood rebuilding, our projects move from a Shaper's idea to something people can point to. Some are finished, some are running now, others start soon.",
+    "cta": "See all projects",
+    "filterAll": "All",
+    "filterCompleted": "Completed",
+    "filterOngoing": "Ongoing",
+    "filterUpcoming": "Upcoming",
+    "impacted": "people impacted"
+  },
+  "ctaBand": {
+    "title": "Valencia needs more people who build.",
+    "body": "If you're between 18 and 33 and want to turn your energy into projects that matter, the hub is looking for you.",
+    "button": "Join the hub"
+  },
+  "footer": {
+    "about": "The Valencia Hub is a volunteer-run chapter of the Global Shapers Community, an initiative of the World Economic Forum, building local projects with global backing.",
+    "navTitle": "Explore",
+    "contactTitle": "Contact",
+    "contactEmail": "hello@globalshapersvalencia.org",
+    "contactCity": "Valencia, Spain",
+    "membershipNote": "Global Shapers Valencia is an independent, volunteer-led hub of the Global Shapers Community, a World Economic Forum initiative. It is not a legal or financial affiliate of the World Economic Forum.",
+    "rights": "Global Shapers Valencia Hub. Community-built, volunteer-run."
+  },
+  "langSwitch": {
+    "label": "Language"
+  }
+}
