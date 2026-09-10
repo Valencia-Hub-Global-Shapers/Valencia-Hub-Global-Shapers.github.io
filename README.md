@@ -21,8 +21,23 @@ Then visit `http://localhost:8080` (or whatever port your tool prints).
 
 ## Deploying
 
-This is a plain static site — drag the whole folder onto Netlify or
-Vercel, or push it to a repo and enable GitHub Pages. No build step.
+Plain static site, no build step. Any static host works (drag the folder
+onto Netlify or Vercel), but this repo is set up for **GitHub Pages** at
+the Valencia Hub org.
+
+### GitHub Pages (current setup)
+
+The site is served as the organization site, so the repo **must be named
+exactly** `Valencia-Hub-Global-Shapers.github.io`. Once it is:
+
+1. Repo → **Settings** → **Pages** → *Build and deployment* →
+   Source: **Deploy from a branch**, Branch: **main**, folder **/ (root)**.
+2. Push to `main`. Pages redeploys automatically within a minute or two.
+3. Live at <https://valencia-hub-global-shapers.github.io/>.
+
+All asset paths in the HTML are relative, so the site also works
+unchanged as a project site (`…github.io/<repo>/`) if the repo is ever
+renamed. No `.nojekyll` is needed — no folders start with an underscore.
 
 ## Structure
 
