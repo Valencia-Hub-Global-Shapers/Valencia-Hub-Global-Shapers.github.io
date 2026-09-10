@@ -12,7 +12,7 @@
   },
   "hero": {
     "eyebrow": "Global Shapers Community \u2014 Hub Valencia",
-    "headline": "Ideas locales. Respaldo del Foro Econ\u00f3mico Mundial. Impacto real en Valencia.",
+    "headline": "Ideas locales. Impacto real en Valencia. Con el respaldo del Foro Econ\u00f3mico Mundial.",
     "intro": "Somos un hub de voluntariado formado por j\u00f3venes que convierten los retos m\u00e1s urgentes de Valencia en proyectos que funcionan, conectados a una red de hubs que el Foro Econ\u00f3mico Mundial impulsa en m\u00e1s de 150 pa\u00edses.",
     "ctaProjects": "Ver nuestros proyectos",
     "ctaTeam": "Conoce al equipo"
@@ -31,12 +31,12 @@
   "about": {
     "eyebrow": "Qu\u00e9 es el hub",
     "title": "Un motor c\u00edvico impulsado por los propios j\u00f3venes de Valencia",
-    "body1": "El Hub Valencia forma parte de la Global Shapers Community, una iniciativa del Foro Econ\u00f3mico Mundial que re\u00fane a personas de entre 18 y 33 a\u00f1os ya activas en sus ciudades. Cada miembro aporta su tiempo como voluntario, compaginando el hub con sus estudios o su trabajo.",
+    "body1": "El Hub Valencia forma parte de la Global Shapers Community, una iniciativa del Foro Econ\u00f3mico Mundial que re\u00fane a personas de entre 18 y 27 a\u00f1os ya activas en sus ciudades. Cada miembro aporta su tiempo como voluntario, compaginando el hub con sus estudios o su trabajo.",
     "body2": "Elegimos problemas locales \u2014vivienda, clima, movilidad, educaci\u00f3n\u2014 y dise\u00f1amos proyectos junto a las personas afectadas, apoy\u00e1ndonos en la formaci\u00f3n, la red y la visibilidad que ofrece la comunidad global.",
     "point1Title": "Voluntariado",
     "point1Body": "Nadie cobra un sueldo. Cada hora sale del tiempo libre de sus miembros.",
     "point2Title": "Liderado por j\u00f3venes",
-    "point2Body": "Cada Shaper tiene entre 18 y 33 a\u00f1os y lidera sus propios proyectos.",
+    "point2Body": "Cada Shaper tiene entre 18 y 27 a\u00f1os y lidera sus propios proyectos.",
     "point3Title": "Impacto local",
     "point3Body": "Los proyectos se dise\u00f1an con y para los barrios de Valencia.",
     "point4Title": "Red global",
@@ -80,7 +80,7 @@
   },
   "ctaBand": {
     "title": "Valencia necesita m\u00e1s gente que construya.",
-    "body": "Si tienes entre 18 y 33 a\u00f1os y quieres convertir tu energ\u00eda en proyectos que importan, el hub te est\u00e1 buscando.",
+    "body": "Si tienes entre 18 y 27 a\u00f1os y quieres convertir tu energ\u00eda en proyectos que importan, el hub te est\u00e1 buscando.",
     "button": "\u00danete al hub"
   },
   "footer": {

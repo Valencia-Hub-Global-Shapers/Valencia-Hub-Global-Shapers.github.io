@@ -12,7 +12,7 @@
   },
   "hero": {
     "eyebrow": "Global Shapers Community \u2014 Hub Val\u00e8ncia",
-    "headline": "Idees locals. Suport del F\u00f2rum Econ\u00f2mic Mundial. Impacte real a Val\u00e8ncia.",
+    "headline": "Idees locals. Impacte real a Val\u00e8ncia. Amb el suport del F\u00f2rum Econ\u00f2mic Mundial.",
     "intro": "Som un hub de voluntariat format per joves que converteixen els reptes m\u00e9s urgents de Val\u00e8ncia en projectes que funcionen, connectats a una xarxa de hubs que el F\u00f2rum Econ\u00f2mic Mundial impulsa en m\u00e9s de 150 pa\u00efsos.",
     "ctaProjects": "Veure els nostres projectes",
     "ctaTeam": "Coneix l'equip"
@@ -31,12 +31,12 @@
   "about": {
     "eyebrow": "Qu\u00e8 \u00e9s el hub",
     "title": "Un motor c\u00edvic impulsat pels propis joves de Val\u00e8ncia",
-    "body1": "El Hub Val\u00e8ncia forma part de la Global Shapers Community, una iniciativa del F\u00f2rum Econ\u00f2mic Mundial que reuneix persones d'entre 18 i 33 anys ja actives a les seues ciutats. Cada membre hi aporta el seu temps com a voluntari, compaginant el hub amb els estudis o la faena.",
+    "body1": "El Hub Val\u00e8ncia forma part de la Global Shapers Community, una iniciativa del F\u00f2rum Econ\u00f2mic Mundial que reuneix persones d'entre 18 i 27 anys ja actives a les seues ciutats. Cada membre hi aporta el seu temps com a voluntari, compaginant el hub amb els estudis o la faena.",
     "body2": "Triem problemes locals \u2014habitatge, clima, mobilitat, educaci\u00f3\u2014 i dissenyem projectes junt amb les persones afectades, recolzant-nos en la formaci\u00f3, la xarxa i la visibilitat que ofereix la comunitat global.",
     "point1Title": "Voluntariat",
     "point1Body": "Ning\u00fa cobra un sou. Cada hora ix del temps lliure dels seus membres.",
     "point2Title": "Liderat per joves",
-    "point2Body": "Cada Shaper t\u00e9 entre 18 i 33 anys i lidera els seus propis projectes.",
+    "point2Body": "Cada Shaper t\u00e9 entre 18 i 27 anys i lidera els seus propis projectes.",
     "point3Title": "Impacte local",
     "point3Body": "Els projectes es dissenyen amb i per als barris de Val\u00e8ncia.",
     "point4Title": "Xarxa global",
@@ -80,7 +80,7 @@
   },
   "ctaBand": {
     "title": "Val\u00e8ncia necessita m\u00e9s gent que construïsca.",
-    "body": "Si tens entre 18 i 33 anys i vols convertir la teua energia en projectes que importen, el hub t'est\u00e0 buscant.",
+    "body": "Si tens entre 18 i 27 anys i vols convertir la teua energia en projectes que importen, el hub t'est\u00e0 buscant.",
     "button": "Uneix-te al hub"
   },
   "footer": {

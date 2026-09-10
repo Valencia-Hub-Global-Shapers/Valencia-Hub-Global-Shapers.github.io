@@ -12,7 +12,7 @@
   },
   "hero": {
     "eyebrow": "Global Shapers Community \u2014 Valencia Hub",
-    "headline": "Local ideas. World Economic Forum backing. Real impact on Valencia.",
+    "headline": "Local ideas. Real impact on Valencia. Backed by the World Economic Forum.",
     "intro": "We are a volunteer-run hub of young people turning Valencia's most pressing challenges into projects that work \u2014 connected to a network of hubs the World Economic Forum supports in over 150 countries.",
     "ctaProjects": "View our projects",
     "ctaTeam": "Meet the team"
@@ -31,12 +31,12 @@
   "about": {
     "eyebrow": "What the hub is",
     "title": "A civic engine run by Valencia's own young people",
-    "body1": "The Valencia Hub is part of the Global Shapers Community, an initiative of the World Economic Forum bringing together people aged 18\u201333 who are already active in their cities. Every member volunteers their time alongside their studies or job.",
+    "body1": "The Valencia Hub is part of the Global Shapers Community, an initiative of the World Economic Forum bringing together people aged 18\u201327 who are already active in their cities. Every member volunteers their time alongside their studies or job.",
     "body2": "We choose local problems \u2014 housing, climate, mobility, education \u2014 and design projects with the people affected by them, using the training, network, and visibility the global community provides.",
     "point1Title": "Volunteer-run",
     "point1Body": "No one draws a salary. Every hour comes from members' own time.",
     "point2Title": "Youth-led",
-    "point2Body": "Every Shaper is between 18 and 33 and leads their own projects.",
+    "point2Body": "Every Shaper is between 18 and 27 and leads their own projects.",
     "point3Title": "Local impact",
     "point3Body": "Projects are designed with and for Valencia's neighbourhoods.",
     "point4Title": "Global network",
@@ -80,7 +80,7 @@
   },
   "ctaBand": {
     "title": "Valencia needs more people who build.",
-    "body": "If you're between 18 and 33 and want to turn your energy into projects that matter, the hub is looking for you.",
+    "body": "If you're between 18 and 27 and want to turn your energy into projects that matter, the hub is looking for you.",
     "button": "Join the hub"
   },
   "footer": {

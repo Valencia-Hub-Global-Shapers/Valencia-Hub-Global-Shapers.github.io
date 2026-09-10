@@ -196,7 +196,8 @@ section { padding-block: var(--section-pad); position: relative; }
 .nav-links a:hover::after { right: 0; }
 .nav-links a[aria-current="page"] { color: var(--ink); font-weight: 600; }
 .nav-links a[aria-current="page"]::after { right: 0; background: var(--ink); }
-.nav-links a.nav-cta { margin-left: 2px; padding: 9px 16px; font-size: 0.82rem; }
+.nav-links a.nav-cta { margin-left: 2px; padding: 9px 16px; font-size: 0.82rem; color: #fff; }
+.nav-links a.nav-cta:hover { color: #fff; }
 .nav-links a.nav-cta::after,
 .nav-links a.nav-cta:hover::after { content: none; }
 
@@ -271,6 +272,19 @@ section { padding-block: var(--section-pad); position: relative; }
   padding-top: clamp(56px, 8vw, 96px);
   padding-bottom: 0;
 }
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: clamp(32px, 6vw, 72px);
+  align-items: center;
+}
+.hero-motif {
+  width: 100%;
+  max-width: 380px;
+  margin-left: auto;
+}
+.hero-motif svg { width: 100%; height: auto; display: block; }
+.hero-motif .ring-bars { fill: rgba(255, 255, 255, 0.2); }
 .hero-eyebrow {
   display: inline-block;
   font-family: var(--font-body);
@@ -975,6 +989,8 @@ section { padding-block: var(--section-pad); position: relative; }
    RESPONSIVE
    =================================================================== */
 @media (max-width: 960px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-motif { order: -1; max-width: 200px; margin: 0 0 8px; }
   .hero-figure { margin-top: clamp(36px, 8vw, 52px); }
   .hero-figure-photo { max-height: 340px; }
   .page-figure-photo { max-height: 300px; }
