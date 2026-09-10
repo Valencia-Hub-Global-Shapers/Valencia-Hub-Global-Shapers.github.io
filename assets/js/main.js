@@ -153,7 +153,7 @@
       card.innerHTML = `
         <div class="project-image">
           <span class="status-badge ${project.status}">${escapeHtml(statusLabel)}</span>
-          <div class="fallback" style="background:linear-gradient(135deg,#1C30A5,#2C41E1)"></div>
+          <div class="fallback"></div>
         </div>
         <div class="project-body">
           <h3>${escapeHtml(localized(project.name, lang))}</h3>
@@ -257,9 +257,9 @@
     const nav = document.getElementById('siteNav');
     const toggle = document.getElementById('navToggle');
 
-    window.addEventListener('scroll', () => {
-      nav.style.boxShadow = window.scrollY > 8 ? '0 12px 30px -20px rgba(0,0,0,0.5)' : 'none';
-    });
+    const onScroll = () => nav.classList.toggle('is-scrolled', window.scrollY > 8);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
 
     toggle.addEventListener('click', () => {
       const isOpen = nav.classList.toggle('menu-open');
