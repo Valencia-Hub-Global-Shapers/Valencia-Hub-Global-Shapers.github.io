@@ -64,6 +64,7 @@
     "title": "Les persones darrere del hub",
     "teaserBody": "Un xicotet comit\u00e8 de voluntaris coordina el hub en el dia a dia \u2014projectes, aliances, comunicaci\u00f3 i els comptes\u2014 mentre cada Shaper lidera el seu propi treball.",
     "cta": "Coneix l'equip complet",
+    "photoCaption": "L'equip del hub València, per la ciutat",
     "modalCloseLabel": "Tancar"
   },
   "projects": {
@@ -86,10 +87,14 @@
     "about": "El Hub Val\u00e8ncia \u00e9s un cap\u00edtol de voluntariat de la Global Shapers Community, una iniciativa del F\u00f2rum Econ\u00f2mic Mundial, que construeix projectes locals amb suport global.",
     "navTitle": "Explora",
     "contactTitle": "Contacte",
-    "contactEmail": "hello@globalshapersvalencia.org",
+    "contactEmail": "valencia.globalshapers@gmail.com",
     "contactCity": "Val\u00e8ncia, Espanya",
     "membershipNote": "Global Shapers Val\u00e8ncia \u00e9s un hub independent i de voluntariat de la Global Shapers Community, una iniciativa del F\u00f2rum Econ\u00f2mic Mundial. No \u00e9s una entitat legal ni financerament afiliada al F\u00f2rum Econ\u00f2mic Mundial.",
     "rights": "Hub Val\u00e8ncia de Global Shapers. Constru\u00eft per la comunitat, gestionat per voluntaris."
+  },
+  "notice": {
+    "tag": "En desenvolupament",
+    "underDevelopment": "Aquesta pàgina encara s'està construint: els elements que apareixen davall són provisionals mentre afegim el contingut real."
   },
   "langSwitch": {
     "label": "Idioma"

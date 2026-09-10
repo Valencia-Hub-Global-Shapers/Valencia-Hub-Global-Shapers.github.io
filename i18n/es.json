@@ -64,6 +64,7 @@
     "title": "Las personas detr\u00e1s del hub",
     "teaserBody": "Un peque\u00f1o comit\u00e9 de voluntarios coordina el hub en el d\u00eda a d\u00eda \u2014proyectos, alianzas, comunicaci\u00f3n y las cuentas\u2014 mientras cada Shaper lidera su propio trabajo.",
     "cta": "Conoce al equipo completo",
+    "photoCaption": "El equipo del hub Valencia, por la ciudad",
     "modalCloseLabel": "Cerrar"
   },
   "projects": {
@@ -86,10 +87,14 @@
     "about": "El Hub Valencia es un cap\u00edtulo de voluntariado de la Global Shapers Community, una iniciativa del Foro Econ\u00f3mico Mundial, que construye proyectos locales con respaldo global.",
     "navTitle": "Explora",
     "contactTitle": "Contacto",
-    "contactEmail": "hello@globalshapersvalencia.org",
+    "contactEmail": "valencia.globalshapers@gmail.com",
     "contactCity": "Valencia, Espa\u00f1a",
     "membershipNote": "Global Shapers Valencia es un hub independiente y de voluntariado de la Global Shapers Community, una iniciativa del Foro Econ\u00f3mico Mundial. No es una entidad legal ni financieramente afiliada al Foro Econ\u00f3mico Mundial.",
     "rights": "Hub Valencia de Global Shapers. Construido por la comunidad, gestionado por voluntarios."
+  },
+  "notice": {
+    "tag": "En desarrollo",
+    "underDevelopment": "Esta página todavía se está construyendo: los elementos que aparecen abajo son provisionales mientras añadimos el contenido real."
   },
   "langSwitch": {
     "label": "Idioma"

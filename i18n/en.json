@@ -64,6 +64,7 @@
     "title": "The people behind the hub",
     "teaserBody": "A small volunteer committee coordinates the hub day to day \u2014 projects, partnerships, communications, and the books \u2014 while every one of our Shapers leads work of their own.",
     "cta": "Meet the full team",
+    "photoCaption": "The Valencia hub team, out in the city",
     "modalCloseLabel": "Close"
   },
   "projects": {
@@ -86,10 +87,14 @@
     "about": "The Valencia Hub is a volunteer-run chapter of the Global Shapers Community, an initiative of the World Economic Forum, building local projects with global backing.",
     "navTitle": "Explore",
     "contactTitle": "Contact",
-    "contactEmail": "hello@globalshapersvalencia.org",
+    "contactEmail": "valencia.globalshapers@gmail.com",
     "contactCity": "Valencia, Spain",
     "membershipNote": "Global Shapers Valencia is an independent, volunteer-led hub of the Global Shapers Community, a World Economic Forum initiative. It is not a legal or financial affiliate of the World Economic Forum.",
     "rights": "Global Shapers Valencia Hub. Community-built, volunteer-run."
+  },
+  "notice": {
+    "tag": "Under development",
+    "underDevelopment": "This page is still being built — the entries shown below are placeholders while we add the real content."
   },
   "langSwitch": {
     "label": "Language"
