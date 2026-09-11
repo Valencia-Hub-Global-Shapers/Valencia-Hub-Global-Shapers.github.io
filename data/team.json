@@ -1,92 +1,317 @@
 [
   {
     "id": 1,
-    "name": "Laura Ferrer",
-    "photo": "/public/team/laura-ferrer.jpg",
+    "name": "Javier Boix Campos",
+    "photo": "/public/team/javier-boix.jpg",
     "role": {
-      "es": "Curadora del Hub",
+      "es": "Curador del Hub",
       "en": "Hub Curator",
-      "val": "Curadora del Hub"
+      "val": "Curador del Hub"
     },
     "bio": {
-      "es": "Laura lidera el hub desde 2024. Ingeniera ambiental de formación, conecta la agenda del Foro Económico Mundial con proyectos reales en los barrios de Valencia.",
-      "en": "Laura has led the hub since 2024. An environmental engineer by training, she connects the World Economic Forum's agenda with real projects in Valencia's neighbourhoods.",
-      "val": "Laura lidera el hub des de 2024. Enginyera ambiental de formació, connecta l'agenda del Fòrum Econòmic Mundial amb projectes reals als barris de València."
+      "es": "Javi ocupa el cargo de mayor responsabilidad del hub. Biotecnólogo y analista de datos de formación, coordina los proyectos y mantiene las relaciones con el resto de hubs de la red del Foro Económico Mundial. Fuera del hub, es un apasionado de la paella, tanto cocinándola como comiéndola.",
+      "en": "Javi holds the hub's most senior role. A biotechnologist and data analyst by training, he coordinates projects and maintains relationships with other hubs across the World Economic Forum network. Outside the hub, he's a paella enthusiast, both cooking and eating it.",
+      "val": "Javi ocupa el càrrec de major responsabilitat del hub. Biotecnòleg i analista de dades de formació, coordina els projectes i manté les relacions amb la resta d'hubs de la xarxa del Fòrum Econòmic Mundial. Fora del hub, és un apassionat de la paella, tant cuinant-la com menjant-la."
     }
   },
   {
     "id": 2,
-    "name": "Marc Ibáñez",
-    "photo": "/public/team/marc-ibanez.jpg",
+    "name": "Sofía Arroyo I Bacete",
+    "photo": "/public/team/sofia-arroyo.jpg",
     "role": {
-      "es": "Curador Adjunto",
-      "en": "Deputy Curator",
-      "val": "Curador Adjunt"
+      "es": "Vicecuradora",
+      "en": "Vice Curator",
+      "val": "Vicecuradora"
     },
     "bio": {
-      "es": "Marc coordina las alianzas institucionales del hub. Antes de sumarse a los Shapers trabajó en movilidad urbana sostenible para el Ayuntamiento de Valencia.",
-      "en": "Marc coordinates the hub's institutional partnerships. Before joining the Shapers he worked on sustainable urban mobility for the Valencia City Council.",
-      "val": "Marc coordina les aliances institucionals del hub. Abans d'unir-se als Shapers va treballar en mobilitat urbana sostenible per a l'Ajuntament de València."
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
     }
   },
   {
     "id": 3,
-    "name": "Nerea Soler",
-    "photo": "/public/team/nerea-soler.jpg",
+    "name": "Alejandro García Salón",
+    "photo": "/public/team/alejandro-garcia.jpg",
     "role": {
-      "es": "Responsable de Proyectos",
-      "en": "Head of Projects",
-      "val": "Responsable de Projectes"
+      "es": "Responsable de Impacto",
+      "en": "Impact Officer",
+      "val": "Responsable d'Impacte"
     },
     "bio": {
-      "es": "Nerea diseña y da seguimiento a cada proyecto del hub, desde la idea inicial hasta el impacto medible. Es economista y especialista en innovación social.",
-      "en": "Nerea designs and tracks every project the hub runs, from first idea to measurable impact. She is an economist specialising in social innovation.",
-      "val": "Nerea dissenya i fa seguiment de cada projecte del hub, des de la idea inicial fins a l'impacte mesurable. És economista i especialista en innovació social."
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
     }
   },
   {
     "id": 4,
-    "name": "Pau Vidal",
-    "photo": "/public/team/pau-vidal.jpg",
+    "name": "Alicia Correcher Parra",
+    "photo": "/public/team/alicia-correcher.jpg",
     "role": {
-      "es": "Responsable de Comunicación",
-      "en": "Head of Communications",
-      "val": "Responsable de Comunicació"
+      "es": "Curadora Saliente",
+      "en": "Outgoing Curator",
+      "val": "Curadora Eixent"
     },
     "bio": {
-      "es": "Pau cuenta las historias del hub hacia fuera y dentro de la red global de Shapers. Es periodista y ha cubierto innovación y clima en medios valencianos.",
-      "en": "Pau tells the hub's stories, both publicly and across the global Shapers network. He is a journalist who has covered innovation and climate for Valencian media.",
-      "val": "Pau conta les històries del hub cap a fora i dins de la xarxa global de Shapers. És periodista i ha cobert innovació i clima en mitjans valencians."
+      "es": "Alicia es arquitecta y ejerce como curadora saliente del hub. Ofrece apoyo al equipo curador y es el punto de contacto con la Global Youth Tech Assembly junto a otros hubs. Le encanta descubrir cosas nuevas, ya sea viajando, viendo películas y series o leyendo.",
+      "en": "Alicia is an architect and serves as the hub's outgoing curator. She supports the curator team and acts as the point of contact with the Global Youth Tech Assembly alongside other hubs. She loves discovering new things, whether through travel, films and series, or books.",
+      "val": "Alicia és arquitecta i exerceix com a curadora eixent del hub. Dona suport a l'equip curador i és el punt de contacte amb la Global Youth Tech Assembly juntament amb altres hubs. Li encanta descobrir coses noves, ja siga viatjant, veient pel·lícules i sèries o llegint."
     }
   },
   {
     "id": 5,
-    "name": "Alba Montoro",
-    "photo": "/public/team/alba-montoro.jpg",
+    "name": "Vicent Sornosa Risen",
+    "photo": "/public/team/vicent-sornosa.jpg",
     "role": {
-      "es": "Responsable de Alianzas",
-      "en": "Head of Partnerships",
-      "val": "Responsable d'Aliances"
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
     },
     "bio": {
-      "es": "Alba abre puertas entre el hub, empresas y administraciones públicas. Trabaja en el sector energético y cree en la colaboración público-privada.",
-      "en": "Alba opens doors between the hub, companies, and public administrations. She works in the energy sector and believes in public-private collaboration.",
-      "val": "Alba obri portes entre el hub, empreses i administracions públiques. Treballa en el sector energètic i creu en la col·laboració publicoprivada."
+      "es": "Sento pidió que su descripción fuera simplemente 'un tío de tecnología', pero para nosotros es mucho más. Un desarrollador excelente y mejor persona, siempre dispuesto a hablar de la terreta y a sumarse a nuevos proyectos.",
+      "en": "Sento asked for his description to simply read 'just a tech guy', but to us he's much more than that. An outstanding developer and an even better person, always up for talking about home and jumping into new projects.",
+      "val": "Sento va demanar que la seua descripció fóra simplement 'un tio de tecnologia', però per a nosaltres és molt més. Un desenvolupador excel·lent i millor persona, sempre disposat a parlar de la terreta i a sumar-se a nous projectes."
     }
   },
   {
     "id": 6,
-    "name": "Iván Peris",
-    "photo": "/public/team/ivan-peris.jpg",
+    "name": "Jaime Díaz Poveda",
+    "photo": "/public/team/jaime-diaz.jpg",
     "role": {
-      "es": "Tesorero",
-      "en": "Treasurer",
-      "val": "Tresorer"
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
     },
     "bio": {
-      "es": "Iván gestiona las finanzas y la sostenibilidad del hub como entidad de voluntariado. Es consultor financiero y forma parte del hub desde su fundación.",
-      "en": "Iván manages the hub's finances and sustainability as a volunteer-run entity. He is a financial consultant and has been part of the hub since it was founded.",
-      "val": "Iván gestiona les finances i la sostenibilitat del hub com a entitat de voluntariat. És consultor financer i forma part del hub des de la seua fundació."
+      "es": "Biotecnólogo y genetista, Jaime combina el máximo rigor y excelencia en su campo con una gran humildad. Si le hablas de One Piece o de Super Smash Bros, te ganarás su favor al instante.",
+      "en": "A biotechnologist and geneticist, Jaime combines rigorous excellence in his field with tremendous humility. Bring up One Piece or Super Smash Bros and you'll win him over instantly.",
+      "val": "Biotecnòleg i genetista, Jaime combina el màxim rigor i excel·lència en el seu camp amb una gran humilitat. Si li parles de One Piece o de Super Smash Bros, et guanyaràs el seu favor a l'instant."
+    }
+  },
+  {
+    "id": 7,
+    "name": "Sergio Martínez García",
+    "photo": "/public/team/sergio-martinez.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Informático por imposición y escritor en su tiempo libre, lo más probable es que te encuentres a Sergio en cualquier retreat del hub.",
+      "en": "A computer scientist by circumstance and a writer in his spare time, chances are you'll run into Sergio at any given retreat.",
+      "val": "Informàtic per imposició i escriptor en el seu temps lliure, el més probable és que et trobes a Sergio en qualsevol retreat del hub."
+    }
+  },
+  {
+    "id": 8,
+    "name": "Montse Coronado",
+    "photo": "/public/team/montse-coronado.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Montse es una de las shapers más recientes del hub. Se dedica al marketing y la comunicación digital, además de participar activamente en iniciativas y proyectos sociales.",
+      "en": "Montse is one of the hub's newest shapers. She works in marketing and digital communication and actively takes part in social initiatives and projects.",
+      "val": "Montse és una de les shapers més recents del hub. Es dedica al màrqueting i la comunicació digital, a més de participar activament en iniciatives i projectes socials."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Alvaro Peguero",
+    "photo": "/public/team/alvaro-peguero.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 10,
+    "name": "Assumpta",
+    "photo": "/public/team/assumpta.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Carmen",
+    "photo": "/public/team/carmen.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 12,
+    "name": "Claudia",
+    "photo": "/public/team/claudia.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 13,
+    "name": "Daryna",
+    "photo": "/public/team/daryna.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 14,
+    "name": "Giulianno",
+    "photo": "/public/team/giulianno.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 15,
+    "name": "Inés González",
+    "photo": "/public/team/ines-gonzalez.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 16,
+    "name": "Iván Panushev",
+    "photo": "/public/team/ivan-panushev.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 17,
+    "name": "Javier Salazar",
+    "photo": "/public/team/javier-salazar.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 18,
+    "name": "Laura",
+    "photo": "/public/team/laura.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 19,
+    "name": "Maria",
+    "photo": "/public/team/maria.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 20,
+    "name": "Simón",
+    "photo": "/public/team/simon.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+    }
+  },
+  {
+    "id": 21,
+    "name": "Yostin",
+    "photo": "/public/team/yostin.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
+      "en": "We're still gathering this team member's information! Check back soon to learn more.",
+      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
     }
   }
 ]
