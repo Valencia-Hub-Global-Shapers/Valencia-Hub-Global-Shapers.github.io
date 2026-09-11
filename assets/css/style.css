@@ -520,17 +520,13 @@ section { padding-block: var(--section-pad); position: relative; }
   margin-top: clamp(44px, 6vw, 68px);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border-top: 1px solid var(--line-on-blue);
-  border-bottom: 1px solid var(--line-on-blue);
 }
 .chain-node {
   padding: 24px 22px 26px 0;
-  border-right: 1px solid var(--line-on-blue);
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.chain-node:last-child { border-right: none; }
 .chain-num {
   font-family: var(--font-display);
   font-size: 1.9rem;
@@ -722,6 +718,7 @@ section { padding-block: var(--section-pad); position: relative; }
 }
 .modal-close:hover { background: rgba(19, 29, 94, 0.9); }
 .modal-body { padding: 26px 28px 30px; overflow-y: auto; }
+.modal-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
 .modal-body h3 {
   font-family: var(--font-display);
   font-size: 1.45rem;
@@ -737,7 +734,7 @@ section { padding-block: var(--section-pad); position: relative; }
   margin-top: 6px;
 }
 .modal-body p.modal-bio { margin-top: 16px; color: var(--ink-soft); line-height: 1.7; }
-.modal-links { display: flex; gap: 10px; margin-top: 18px; }
+.modal-links { display: flex; gap: 10px; flex-shrink: 0; }
 .modal-links:empty { display: none; }
 .modal-links a {
   width: 34px; height: 34px;
@@ -1053,8 +1050,6 @@ section { padding-block: var(--section-pad); position: relative; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
   .chain { grid-template-columns: repeat(2, 1fr); }
-  .chain-node:nth-child(2n) { border-right: none; }
-  .chain-node:nth-child(n+3) { border-top: 1px solid var(--line-on-blue); }
 }
 @media (max-width: 620px) {
   .nav-links { display: none; }
@@ -1068,8 +1063,6 @@ section { padding-block: var(--section-pad); position: relative; }
   .team-grid { grid-template-columns: 1fr 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
   .chain { grid-template-columns: 1fr; }
-  .chain-node { border-right: none; border-top: 1px solid var(--line-on-blue); }
-  .chain-node:first-child { border-top: none; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bottom { justify-content: flex-start; }
 }
