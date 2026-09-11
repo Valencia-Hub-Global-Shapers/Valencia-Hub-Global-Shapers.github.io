@@ -37,11 +37,14 @@
 
   // Fills a container with an initials fallback, then swaps in the real
   // photo only if it loads (repo ships without real /public assets).
-  function setPhoto(container, photoPath, name) {
+  // `position` is a CSS object-position value (e.g. "center top", "50% 20%")
+  // so individual portraits can be re-centered without cropping the source file.
+  function setPhoto(container, photoPath, name, position) {
     container.textContent = initials(name);
     if (!photoPath) return;
     const img = new Image();
     img.alt = name;
+    img.style.objectPosition = position || 'center';
     img.onload = () => {
       container.textContent = '';
       container.appendChild(img);
@@ -86,7 +89,7 @@
           <p>${escapeHtml(localized(member.role, lang))}</p>
         </div>
       `;
-      setPhoto(card.querySelector('.team-photo'), member.photo, member.name);
+      setPhoto(card.querySelector('.team-photo'), member.photo, member.name, member.photoPosition);
       card.addEventListener('click', () => openTeamModal(member));
       grid.appendChild(card);
     });
@@ -126,7 +129,7 @@
     document.getElementById('modalRole').textContent = localized(member.role, lang);
     document.getElementById('modalBio').textContent = localized(member.bio, lang);
     renderMemberLinks(document.getElementById('modalLinks'), member.links);
-    setPhoto(document.getElementById('modalPhotoInner'), member.photo, member.name);
+    setPhoto(document.getElementById('modalPhotoInner'), member.photo, member.name, member.photoPosition);
 
     lastFocusedEl = document.activeElement;
     overlay.classList.add('open');
