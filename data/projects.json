@@ -2,97 +2,161 @@
   {
     "id": 1,
     "name": {
-      "es": "Horta Urbana",
-      "en": "Urban Orchard",
-      "val": "Horta Urbana"
+      "es": "Colaboración GXVLC",
+      "en": "GXVLC Collab",
+      "val": "Col·laboració GXVLC"
     },
-    "image": "/public/projects/horta-urbana.jpg",
+    "image": "/public/projects/gxvlc-collab.jpg",
     "description": {
-      "es": "Recuperamos tres solares abandonados en Russafa y Benimaclet para convertirlos en huertos comunitarios gestionados por vecinos y escuelas cercanas.",
-      "en": "We reclaimed three abandoned plots in Russafa and Benimaclet, turning them into community orchards run by neighbours and nearby schools.",
-      "val": "Vam recuperar tres solars abandonats a Russafa i Benimaclet per a convertir-los en horts comunitaris gestionats per veïns i escoles pròximes."
+      "es": "Colaboramos con la Fundación Princesa de Girona para entrevistar a jóvenes afectados por la DANA, garantizando que sus voces se incluyeran en un White Paper oficial. Dos de nuestros Shapers se incorporaron al Core Team de la iniciativa, y ayudamos a difundir la encuesta, apoyar las entrevistas y participar en un Hackathon para diseñar soluciones ante futuras emergencias.",
+      "en": "We partnered with the Fundación Princesa de Girona to interview young people affected by the DANA floods, making sure their voices were included in an official White Paper. Two of our Shapers joined the initiative's Core Team, and we helped spread the survey, support the interviews, and take part in a Hackathon to design solutions for future emergencies.",
+      "val": "Vam col·laborar amb la Fundación Princesa de Girona per a entrevistar joves afectats per la DANA, garantint que les seues veus s'incloïren en un White Paper oficial. Dos dels nostres Shapers es van incorporar al Core Team de la iniciativa, i vam ajudar a difondre l'enquesta, donar suport a les entrevistes i participar en un Hackathon per a dissenyar solucions davant futures emergències."
     },
-    "peopleImpacted": 1200,
+    "peopleImpacted": 140,
     "status": "completed"
   },
   {
     "id": 2,
     "name": {
-      "es": "Riada Circular",
-      "en": "Circular Flood Recovery",
-      "val": "Riuada Circular"
+      "es": "Aprendizaje para el Impacto Social",
+      "en": "Learning for Social Impact",
+      "val": "Aprenentatge per a l'Impacte Social"
     },
-    "image": "/public/projects/riada-circular.jpg",
+    "image": "/public/projects/learning-for-social-impact.jpg",
     "description": {
-      "es": "Programa de reconstrucción con economía circular en zonas afectadas por la DANA, recuperando materiales y formando a cuadrillas locales.",
-      "en": "A circular-economy rebuilding programme in areas hit by the flash floods, recovering materials and training local work crews.",
-      "val": "Programa de reconstrucció amb economia circular en zones afectades per la DANA, recuperant materials i formant quadrilles locals."
+      "es": "Junto al Center for Digital Technology and Management (CDTM) organizamos una serie de talleres sobre trabajo en equipo social y diseño de proyectos para estudiantes universitarios. A lo largo de varias semanas, más de 20 participantes co-diseñaron soluciones a retos locales, con Shapers de otros Hubs actuando como evaluadores externos, dando lugar a 4 nuevos proyectos.",
+      "en": "Together with the Center for Digital Technology and Management (CDTM) we ran a series of workshops on social teamwork and project design for university students. Over several weeks, more than 20 participants co-designed solutions to local challenges, with Shapers from other Hubs joining as external evaluators, resulting in 4 new projects.",
+      "val": "Junt amb el Center for Digital Technology and Management (CDTM) vam organitzar una sèrie de tallers sobre treball en equip social i disseny de projectes per a estudiants universitaris. Al llarg de diverses setmanes, més de 20 participants van co-dissenyar solucions a reptes locals, amb Shapers d'altres Hubs actuant com a avaluadors externs, la qual cosa va donar lloc a 4 nous projectes."
     },
-    "peopleImpacted": 3400,
-    "status": "ongoing"
+    "peopleImpacted": 20,
+    "status": "completed"
   },
   {
     "id": 3,
     "name": {
-      "es": "Codi Jove",
-      "en": "Youth Code",
-      "val": "Codi Jove"
+      "es": "WeVolve",
+      "en": "WeVolve",
+      "val": "WeVolve"
     },
-    "image": "/public/projects/codi-jove.jpg",
+    "image": "/public/projects/wevolve.jpg",
     "description": {
-      "es": "Talleres gratuitos de programación y pensamiento computacional para adolescentes de institutos públicos de la periferia de Valencia.",
-      "en": "Free coding and computational-thinking workshops for teenagers from public schools on the outskirts of Valencia.",
-      "val": "Tallers gratuïts de programació i pensament computacional per a adolescents d'instituts públics de la perifèria de València."
+      "es": "Nos unimos a Hubs de cinco países para organizar el WeVolve Workshop, compartiendo conocimientos sobre el ecosistema emprendedor de cada país. Desde Valencia organizamos la sesión 'Women Empowering the Future of STEM & Entrepreneurship', abordando las barreras que enfrentan las mujeres en los campos STEM y en el emprendimiento.",
+      "en": "We joined Hubs from five countries to organise the WeVolve Workshop, sharing insights on each country's entrepreneurial ecosystem. From Valencia we hosted the session 'Women Empowering the Future of STEM & Entrepreneurship', addressing the barriers women face in STEM fields and entrepreneurship.",
+      "val": "Ens vam unir a Hubs de cinc països per a organitzar el WeVolve Workshop, compartint coneixements sobre l'ecosistema emprenedor de cada país. Des de València vam organitzar la sessió 'Women Empowering the Future of STEM & Entrepreneurship', abordant les barreres que enfronten les dones en els camps STEM i en l'emprenedoria."
     },
-    "peopleImpacted": 560,
-    "status": "ongoing"
+    "peopleImpacted": 83,
+    "status": "completed"
   },
   {
     "id": 4,
     "name": {
-      "es": "Mar Neta",
-      "en": "Clean Sea",
-      "val": "Mar Neta"
+      "es": "Intercambio de Ropa",
+      "en": "Clothing Swap",
+      "val": "Intercanvi de Roba"
     },
-    "image": "/public/projects/mar-neta.jpg",
+    "image": "/public/projects/clothing-swap.jpg",
     "description": {
-      "es": "Jornadas mensuales de limpieza en la playa de la Malva-rosa junto a asociaciones locales, con datos de residuos enviados a un observatorio europeo.",
-      "en": "Monthly clean-up days at Malva-rosa beach with local associations, feeding waste data into a European monitoring network.",
-      "val": "Jornades mensuals de neteja a la platja de la Malva-rosa junt amb associacions locals, amb dades de residus enviades a un observatori europeu."
+      "es": "Organizado junto a Mou-te (Universitat Politècnica de València) y Jeanologia, este evento combinó una charla formativa sobre el impacto ambiental de la industria textil con un mercadillo de intercambio de ropa, fomentando la moda circular y reduciendo los residuos textiles.",
+      "en": "Organised with Mou-te (Universitat Politècnica de València) and Jeanologia, this event paired an educational talk on the textile industry's environmental impact with a clothing swap market, promoting circular fashion and reducing textile waste.",
+      "val": "Organitzat junt amb Mou-te (Universitat Politècnica de València) i Jeanologia, aquest esdeveniment va combinar una xarrada formativa sobre l'impacte ambiental de la indústria tèxtil amb un mercat d'intercanvi de roba, fomentant la moda circular i reduint els residus tèxtils."
     },
-    "peopleImpacted": 890,
+    "peopleImpacted": 30,
     "status": "completed"
   },
   {
     "id": 5,
     "name": {
-      "es": "Impulsa Rural",
-      "en": "Rural Boost",
-      "val": "Impulsa Rural"
+      "es": "Colaboración con la Sociedad Filarmónica",
+      "en": "Collab with Sociedad Filarmónica",
+      "val": "Col·laboració amb la Societat Filharmònica"
     },
-    "image": "/public/projects/impulsa-rural.jpg",
+    "image": "/public/projects/sociedad-filarmonica.jpg",
     "description": {
-      "es": "Mentoría para emprendedores de la Valencia interior que quieren digitalizar negocios agroalimentarios de proximidad.",
-      "en": "Mentoring for entrepreneurs from inland Valencia looking to digitalise local agri-food businesses.",
-      "val": "Mentoria per a emprenedors de la València interior que volen digitalitzar negocis agroalimentaris de proximitat."
+      "es": "Asistimos a una inspiradora conferencia sobre estética y arte impartida por Javier Aloy, seguida del XIII Concierto de la Orquesta de Cámara de la Sociedad Filarmónica de Valencia, destacando el papel esencial de la cultura para enriquecer la vida urbana.",
+      "en": "We attended an inspiring lecture on aesthetics and art by Javier Aloy, followed by the XIII Concert of the Valencia Philharmonic Society Chamber Orchestra, highlighting the vital role culture plays in enriching urban life.",
+      "val": "Vam assistir a una inspiradora conferència sobre estètica i art impartida per Javier Aloy, seguida del XIII Concert de l'Orquestra de Cambra de la Societat Filharmònica de València, destacant el paper essencial de la cultura per a enriquir la vida urbana."
     },
-    "peopleImpacted": 150,
-    "status": "upcoming"
+    "peopleImpacted": 50,
+    "status": "completed"
   },
   {
     "id": 6,
     "name": {
-      "es": "Ciutat Accessible",
-      "en": "Accessible City",
-      "val": "Ciutat Accessible"
+      "es": "Plataforma de Vivienda",
+      "en": "Housing Platform",
+      "val": "Plataforma d'Habitatge"
     },
-    "image": "/public/projects/ciutat-accessible.jpg",
+    "image": "/public/projects/plataforma-vivienda.jpg",
     "description": {
-      "es": "Mapeo ciudadano de barreras arquitectónicas en el centro histórico, en colaboración con entidades de personas con diversidad funcional.",
-      "en": "A citizen-led mapping of architectural barriers in the historic centre, run with organisations representing people with disabilities.",
-      "val": "Mapatge ciutadà de barreres arquitectòniques al centre històric, en col·laboració amb entitats de persones amb diversitat funcional."
+      "es": "Estamos desarrollando una plataforma de vivienda: una base de datos abierta para publicar y consultar ofertas de piso compartido en Valencia, con filtros por barrio, precio, número de compañeros y género, pensada para centralizar lo que hoy está disperso en historias de Instagram y grupos de WhatsApp. Cualquiera puede subir su anuncio mediante un formulario abierto, sin necesidad de registro, que pasa por una breve revisión manual para evitar trolls; los anuncios se desactivan automáticamente a los 10 días para evitar información desactualizada. El objetivo es ayudar a esquivar a los especuladores inmobiliarios y difundirla con universidades, influencers y el Ayuntamiento, siempre sin ánimo de lucro.",
+      "en": "We're building a housing platform: an open database to post and browse shared-flat listings in Valencia, filterable by neighbourhood, price, number of flatmates and gender, aimed at centralising what today is scattered across Instagram stories and WhatsApp groups. Anyone can upload a listing through an open form with no login required; each ad goes through a quick manual review to keep out trolls and auto-expires after 10 days so nothing goes stale. The goal is to help people bypass real-estate speculators, and we plan to promote it with universities, influencers and the City Council, all run on a non-profit basis.",
+      "val": "Estem desenvolupant una plataforma d'habitatge: una base de dades oberta per a publicar i consultar ofertes de pis compartit a València, amb filtres per barri, preu, nombre de companys i gènere, pensada per a centralitzar el que hui està dispers en històries d'Instagram i grups de WhatsApp. Qualsevol pot pujar el seu anunci mitjançant un formulari obert, sense necessitat de registre, que passa per una breu revisió manual per a evitar trolls; els anuncis es desactiven automàticament als 10 dies per a evitar informació desactualitzada. L'objectiu és ajudar a esquivar els especuladors immobiliaris i difondre-la amb universitats, influencers i l'Ajuntament, sempre sense ànim de lucre."
     },
-    "peopleImpacted": 2100,
-    "status": "upcoming"
+    "peopleImpacted": null,
+    "status": "ongoing"
+  },
+  {
+    "id": 7,
+    "name": {
+      "es": "AIwareness",
+      "en": "AIwareness",
+      "val": "AIwareness"
+    },
+    "image": "/public/projects/aiwareness.jpg",
+    "description": {
+      "es": "AIwareness es una WebApp interactiva pensada para concienciar sobre lo difícil que resulta ya distinguir el contenido generado por IA del contenido real. El usuario recorre una serie de imágenes y va decidiendo cuáles son reales y cuáles no; después se le indica en cuáles ha acertado y se le ofrece formación adicional sobre qué detalles fijarse para mejorar su ojo crítico. Está diseñada para ser fácilmente exportable a otros hubs del mundo: cualquier hub puede enviar su propio JSON con sus imágenes y aparecer como una ciudad más dentro de la plataforma, por lo que creemos que tiene potencial de convertirse en uno de los proyectos más globales de Global Shapers.",
+      "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye. It's built to be easily exported to other hubs worldwide — any hub can send its own JSON with its own images and appear as another city within the platform — which is why we think it has the potential to become one of the most global projects Global Shapers has run.",
+      "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític. Està dissenyada per a ser fàcilment exportable a altres hubs del món: qualsevol hub pot enviar el seu propi JSON amb les seues imatges i aparéixer com una ciutat més dins de la plataforma, per la qual cosa creiem que té potencial per a convertir-se en un dels projectes més globals de Global Shapers."
+    },
+    "peopleImpacted": null,
+    "status": "ongoing"
+  },
+  {
+    "id": 8,
+    "name": {
+      "es": "Charlas de Genética con la AECC",
+      "en": "Genetics Talks with AECC",
+      "val": "Xarrades de Genètica amb l'AECC"
+    },
+    "image": "/public/projects/genetica-aecc.jpg",
+    "description": {
+      "es": "Estamos en contacto con la Asociación Española Contra el Cáncer (AECC) para organizar charlas de divulgación científica sobre genética. Contamos con miembros del hub formados en biomedicina que están desarrollando sesiones y talleres para ayudar a las personas de Valencia a entender las implicaciones de la genética en el desarrollo de enfermedades, identificar posibles factores de riesgo, comentarlos con su médico e iniciar un tratamiento a tiempo si fuera necesario.",
+      "en": "We're in contact with the Asociación Española Contra el Cáncer (AECC, Spanish Association Against Cancer) to organise science outreach talks on genetics. Hub members with a background in biomedicine are developing sessions and workshops to help people in Valencia understand how genetics can influence the development of diseases, spot possible risk factors, discuss them with their doctor, and start treatment early if needed.",
+      "val": "Estem en contacte amb l'Asociación Española Contra el Cáncer (AECC) per a organitzar xarrades de divulgació científica sobre genètica. Comptem amb membres del hub formats en biomedicina que estan desenvolupant sessions i tallers per a ajudar les persones de València a entendre les implicacions de la genètica en el desenvolupament de malalties, identificar possibles factors de risc, comentar-los amb el seu metge i iniciar un tractament a temps si fóra necessari."
+    },
+    "peopleImpacted": null,
+    "status": "ongoing"
+  },
+  {
+    "id": 9,
+    "name": {
+      "es": "Cartas para los Yayos",
+      "en": "Letters for the Elderly",
+      "val": "Cartes per als Avis"
+    },
+    "image": "/public/projects/cartas-yayos.jpg",
+    "description": {
+      "es": "Hemos contactado con residencias de ancianos de Valencia para poner en marcha una colaboración sencilla pero con mucho corazón: escribir cartas a los residentes y organizar alguna actividad con ellos. Es un proyecto más pequeño que el resto, pero creemos que puede tener un gran impacto y es una manera muy bonita de acercar el hub a la comunidad.",
+      "en": "We've reached out to nursing homes in Valencia to start a small but heartfelt collaboration: writing letters to residents and organising an activity with them. It's a smaller project than the others, but we think it can have a big impact and is a lovely way to connect the hub with the local community.",
+      "val": "Hem contactat amb residències d'ancians de València per a posar en marxa una col·laboració senzilla però amb molt de cor: escriure cartes als residents i organitzar alguna activitat amb ells. És un projecte més xicotet que la resta, però creiem que pot tindre un gran impacte i és una manera molt bonica d'acostar el hub a la comunitat."
+    },
+    "peopleImpacted": null,
+    "status": "ongoing"
+  },
+  {
+    "id": 10,
+    "name": {
+      "es": "Size of Pain",
+      "en": "Size of Pain",
+      "val": "Size of Pain"
+    },
+    "image": "/public/projects/size-of-pain.jpg",
+    "description": {
+      "es": "Tras una visita a Auschwitz-Birkenau que nos dejó profundamente impactados por la magnitud del campo, desarrollamos la herramienta Size of Pain (size-of-pain.vercel.app), que ayuda a visualizar esa escala. Actualmente estamos coordinando con el hub de Cracovia para contactar con la fundación Auschwitz y ofrecerla como recurso adicional para el memorial.",
+      "en": "After a visit to Auschwitz-Birkenau that left us deeply shaken by the sheer scale of the camp, we built Size of Pain (size-of-pain.vercel.app), a tool to help visualise that scale. We're currently coordinating with the Kraków hub to reach out to the Auschwitz foundation and offer it as an additional resource for the memorial.",
+      "val": "Després d'una visita a Auschwitz-Birkenau que ens va deixar profundament impactats per la magnitud del camp, vam desenvolupar l'eina Size of Pain (size-of-pain.vercel.app), que ajuda a visualitzar eixa escala. Actualment estem coordinant-nos amb el hub de Cracòvia per a contactar amb la fundació Auschwitz i oferir-la com a recurs addicional per al memorial."
+    },
+    "peopleImpacted": null,
+    "status": "ongoing"
   }
 ]
