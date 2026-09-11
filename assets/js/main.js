@@ -41,7 +41,6 @@
     if (!photoPath) return;
     const img = new Image();
     img.alt = name;
-    img.loading = 'lazy';
     img.onload = () => {
       container.textContent = '';
       container.appendChild(img);
