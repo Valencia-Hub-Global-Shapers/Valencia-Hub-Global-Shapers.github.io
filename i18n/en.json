@@ -78,6 +78,11 @@
     "filterUpcoming": "Upcoming",
     "impacted": "people impacted"
   },
+  "alumni": {
+    "eyebrow": "Alumni",
+    "title": "Proud of where they've gone",
+    "body": "Some of the people who helped build this hub have moved on to new chapters. We're proud to have been part of the journey."
+  },
   "ctaBand": {
     "title": "Valencia needs more people who build.",
     "body": "If you're between 18 and 27 and want to turn your energy into projects that matter, the hub is looking for you.",
