@@ -153,6 +153,7 @@
     "id": 9,
     "name": "Inés González",
     "photo": "/public/team/ines-gonzalez.jpg",
+    "photoPosition": "center 15%",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
