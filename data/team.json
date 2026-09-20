@@ -131,25 +131,6 @@
     }
   },
   {
-    "id": 8,
-    "name": "Montse Coronado",
-    "photo": "/public/team/montse-coronado.jpg",
-    "photoPosition": "center 20%",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "Montse es una de las shapers más recientes del hub. Se dedica al marketing y la comunicación digital, además de participar activamente en iniciativas y proyectos sociales.",
-      "en": "Montse is one of the hub's newest shapers. She works in marketing and digital communication and actively takes part in social initiatives and projects.",
-      "val": "Montse és una de les shapers més recents del hub. Es dedica al màrqueting i la comunicació digital, a més de participar activament en iniciatives i projectes socials."
-    },
-    "links": {
-      "linkedin": "https://www.linkedin.com/in/montse-coronado-0b9b56203"
-    }
-  },
-  {
     "id": 9,
     "name": "Inés González",
     "photo": "/public/team/ines-gonzalez.jpg",
