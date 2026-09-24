@@ -150,6 +150,24 @@
     }
   },
   {
+    "id": 14,
+    "name": "Daryna",
+    "photo": "/public/team/daryna.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Daryna es el tipo de chica que se apunta a todo por la experiencia (y el fomo). Estudia Negocios Internacionales porque piensa que así viajará por el mundo, y le encanta conocer gente de toda clase. Si algún día te apuntas al plan más random, allí estará ella.",
+      "en": "Daryna is the kind of girl who says yes to everything for the experience (and the FOMO). She's studying International Business because she figures it'll take her travelling the world, and she loves meeting all kinds of people. If you ever sign up for the most random plan going, she'll be there.",
+      "val": "Daryna és el tipus de xica que s'apunta a tot per l'experiència (i el fomo). Estudia Negocis Internacionals perquè pensa que així viatjarà pel món, i li encanta conéixer gent de tota classe. Si algun dia t'apuntes al pla més random, allí estarà ella."
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/daryna-telychko-622341332"
+    }
+  },
+  {
     "id": 10,
     "name": "Alvaro Peguero",
     "photo": "/public/team/alvaro-peguero.jpg",
@@ -207,24 +225,6 @@
     "id": 13,
     "name": "Claudia",
     "photo": "/public/team/claudia.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 14,
-    "name": "Daryna",
-    "photo": "/public/team/daryna.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
