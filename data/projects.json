@@ -12,7 +12,7 @@
       "val": "Estem desenvolupant una plataforma d'habitatge: una base de dades oberta per a publicar i consultar ofertes de pis compartit a València, amb filtres per barri, preu, nombre de companys i gènere, pensada per a centralitzar el que hui està dispers en històries d'Instagram i grups de WhatsApp. L'objectiu és ajudar a esquivar els especuladors immobiliaris i difondre-la amb universitats, influencers i l'Ajuntament, sempre sense ànim de lucre."
     },
     "peopleImpacted": null,
-    "status": "ongoing"
+    "status": "upcoming"
   },
   {
     "id": 2,
@@ -22,11 +22,11 @@
       "val": "AIwareness"
     },
     "description": {
-      "es": "AIwareness es una WebApp interactiva pensada para concienciar sobre lo difícil que resulta ya distinguir el contenido generado por IA del contenido real. El usuario recorre una serie de imágenes y va decidiendo cuáles son reales y cuáles no; después se le indica en cuáles ha acertado y se le ofrece formación adicional sobre qué detalles fijarse para mejorar su ojo crítico.",
-      "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye.",
-      "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític."
+      "es": "AIwareness es una WebApp interactiva pensada para concienciar sobre lo difícil que resulta ya distinguir el contenido generado por IA del contenido real. El usuario recorre una serie de imágenes y va decidiendo cuáles son reales y cuáles no; después se le indica en cuáles ha acertado y se le ofrece formación adicional sobre qué detalles fijarse para mejorar su ojo crítico. Ya han participado más de 100 personas y más de 10 hubs se han sumado a la iniciativa.",
+      "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye. More than 100 people have already taken part, and over 10 hubs have joined the initiative.",
+      "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític. Ja hi han participat més de 100 persones i més de 10 hubs s'han sumat a la iniciativa."
     },
-    "peopleImpacted": null,
+    "peopleImpacted": "+100",
     "status": "ongoing"
   },
   {
@@ -42,7 +42,7 @@
       "val": "Estem en contacte amb l'Asociación Española Contra el Cáncer (AECC) per a organitzar xarrades de divulgació científica sobre genètica. Comptem amb membres del hub formats en biomedicina que estan desenvolupant sessions i tallers per a ajudar les persones de València a entendre les implicacions de la genètica en el desenvolupament de malalties, identificar possibles factors de risc, comentar-los amb el seu metge i iniciar un tractament a temps si fóra necessari."
     },
     "peopleImpacted": null,
-    "status": "ongoing"
+    "status": "upcoming"
   },
   {
     "id": 4,

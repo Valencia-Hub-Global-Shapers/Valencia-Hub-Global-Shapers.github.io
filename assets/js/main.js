@@ -185,10 +185,13 @@
     const dict = window.i18n.getDict();
     grid.innerHTML = '';
 
-    const visible =
+    // Ongoing first, then upcoming, then completed; JSON order within each.
+    const statusOrder = { ongoing: 0, upcoming: 1, completed: 2 };
+    const visible = (
       activeFilter === 'all'
-        ? projectsData
-        : projectsData.filter((p) => p.status === activeFilter);
+        ? projectsData.slice()
+        : projectsData.filter((p) => p.status === activeFilter)
+    ).sort((a, b) => (statusOrder[a.status] ?? 3) - (statusOrder[b.status] ?? 3));
 
     const statusLabelKey = {
       completed: 'projects.filterCompleted',
@@ -211,13 +214,19 @@
           <p class="project-desc">${escapeHtml(localized(project.description, lang))}</p>
           <div class="project-impact">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg>
-            <span>${Number(project.peopleImpacted).toLocaleString(lang === 'en' ? 'en-GB' : 'es-ES')} ${escapeHtml(getPath(dict, 'projects.impacted'))}</span>
+            <span>${escapeHtml(formatImpact(project.peopleImpacted, lang))} ${escapeHtml(getPath(dict, 'projects.impacted'))}</span>
           </div>
         </div>
       `;
 
       grid.appendChild(card);
     });
+  }
+
+  // Numbers are localised; strings (e.g. "+100") are shown as written.
+  function formatImpact(value, lang) {
+    if (typeof value === 'string') return value;
+    return Number(value).toLocaleString(lang === 'en' ? 'en-GB' : 'es-ES');
   }
 
   function getPath(obj, path) {
