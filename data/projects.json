@@ -6,14 +6,13 @@
       "en": "Housing Platform",
       "val": "Plataforma d'Habitatge"
     },
-    "image": "/public/projects/plataforma-vivienda.jpg",
     "description": {
       "es": "Estamos desarrollando una plataforma de vivienda: una base de datos abierta para publicar y consultar ofertas de piso compartido en Valencia, con filtros por barrio, precio, número de compañeros y género, pensada para centralizar lo que hoy está disperso en historias de Instagram y grupos de WhatsApp. El objetivo es ayudar a esquivar a los especuladores inmobiliarios y difundirla con universidades, influencers y el Ayuntamiento, siempre sin ánimo de lucro.",
       "en": "We're building a housing platform: an open database to post and browse shared-flat listings in Valencia, filterable by neighbourhood, price, number of flatmates and gender, aimed at centralising what today is scattered across Instagram stories and WhatsApp groups. The goal is to help people bypass real-estate speculators, and we plan to promote it with universities, influencers and the City Council, all run on a non-profit basis.",
       "val": "Estem desenvolupant una plataforma d'habitatge: una base de dades oberta per a publicar i consultar ofertes de pis compartit a València, amb filtres per barri, preu, nombre de companys i gènere, pensada per a centralitzar el que hui està dispers en històries d'Instagram i grups de WhatsApp. L'objectiu és ajudar a esquivar els especuladors immobiliaris i difondre-la amb universitats, influencers i l'Ajuntament, sempre sense ànim de lucre."
     },
     "peopleImpacted": null,
-    "status": "ongoing"
+    "status": "upcoming"
   },
   {
     "id": 2,
@@ -22,13 +21,13 @@
       "en": "AIwareness",
       "val": "AIwareness"
     },
-    "image": "/public/projects/aiwareness.jpg",
     "description": {
-      "es": "AIwareness es una WebApp interactiva pensada para concienciar sobre lo difícil que resulta ya distinguir el contenido generado por IA del contenido real. El usuario recorre una serie de imágenes y va decidiendo cuáles son reales y cuáles no; después se le indica en cuáles ha acertado y se le ofrece formación adicional sobre qué detalles fijarse para mejorar su ojo crítico.",
-      "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye.",
-      "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític."
+      "es": "AIwareness es una WebApp interactiva pensada para concienciar sobre lo difícil que resulta ya distinguir el contenido generado por IA del contenido real. El usuario recorre una serie de imágenes y va decidiendo cuáles son reales y cuáles no; después se le indica en cuáles ha acertado y se le ofrece formación adicional sobre qué detalles fijarse para mejorar su ojo crítico. Ya han participado más de 100 personas y más de 10 hubs se han sumado a la iniciativa.",
+      "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye. More than 100 people have already taken part, and over 10 hubs have joined the initiative.",
+      "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític. Ja hi han participat més de 100 persones i més de 10 hubs s'han sumat a la iniciativa."
     },
-    "peopleImpacted": null,
+    "url": "https://aiwareness.vercel.app",
+    "peopleImpacted": "+100",
     "status": "ongoing"
   },
   {
@@ -38,14 +37,13 @@
       "en": "Genetics Talks with AECC",
       "val": "Xarrades de Genètica amb l'AECC"
     },
-    "image": "/public/projects/genetica-aecc.jpg",
     "description": {
       "es": "Estamos en contacto con la Asociación Española Contra el Cáncer (AECC) para organizar charlas de divulgación científica sobre genética. Contamos con miembros del hub formados en biomedicina que están desarrollando sesiones y talleres para ayudar a las personas de Valencia a entender las implicaciones de la genética en el desarrollo de enfermedades, identificar posibles factores de riesgo, comentarlos con su médico e iniciar un tratamiento a tiempo si fuera necesario.",
       "en": "We're in contact with the Asociación Española Contra el Cáncer (AECC, Spanish Association Against Cancer) to organise science outreach talks on genetics. Hub members with a background in biomedicine are developing sessions and workshops to help people in Valencia understand how genetics can influence the development of diseases, spot possible risk factors, discuss them with their doctor, and start treatment early if needed.",
       "val": "Estem en contacte amb l'Asociación Española Contra el Cáncer (AECC) per a organitzar xarrades de divulgació científica sobre genètica. Comptem amb membres del hub formats en biomedicina que estan desenvolupant sessions i tallers per a ajudar les persones de València a entendre les implicacions de la genètica en el desenvolupament de malalties, identificar possibles factors de risc, comentar-los amb el seu metge i iniciar un tractament a temps si fóra necessari."
     },
     "peopleImpacted": null,
-    "status": "ongoing"
+    "status": "upcoming"
   },
   {
     "id": 4,
@@ -54,7 +52,6 @@
       "en": "Letters for the Elderly",
       "val": "Cartes per als Avis"
     },
-    "image": "/public/projects/cartas-yayos.jpg",
     "description": {
       "es": "Tenemos contacto con residencias de ancianos de Valencia y queremos impulsar una colaboración sencilla pero con mucho corazón: escribir cartas a los residentes y organizar alguna actividad con ellos.",
       "en": "We're in contact with nursing homes in Valencia and want to kick off a small but heartfelt collaboration: writing letters to residents and organising an activity with them.",
@@ -70,12 +67,12 @@
       "en": "Size of Pain",
       "val": "Size of Pain"
     },
-    "image": "/public/projects/size-of-pain.jpg",
     "description": {
-      "es": "Tras una visita a Auschwitz-Birkenau que nos dejó profundamente impactados por la magnitud del campo, desarrollamos la herramienta Size of Pain (size-of-pain.vercel.app), que ayuda a visualizar esa escala. Actualmente estamos coordinando con el hub de Cracovia para contactar con la fundación Auschwitz y ofrecerla como recurso adicional para el memorial.",
-      "en": "After a visit to Auschwitz-Birkenau that left us deeply shaken by the sheer scale of the camp, we built Size of Pain (size-of-pain.vercel.app), a tool to help visualise that scale. We're currently coordinating with the Kraków hub to reach out to the Auschwitz foundation and offer it as an additional resource for the memorial.",
-      "val": "Després d'una visita a Auschwitz-Birkenau que ens va deixar profundament impactats per la magnitud del camp, vam desenvolupar l'eina Size of Pain (size-of-pain.vercel.app), que ajuda a visualitzar eixa escala. Actualment estem coordinant-nos amb el hub de Cracòvia per a contactar amb la fundació Auschwitz i oferir-la com a recurs addicional per al memorial."
+      "es": "Tras una visita a Auschwitz-Birkenau que nos dejó profundamente impactados por la magnitud del campo, desarrollamos la herramienta Size of Pain, que ayuda a visualizar esa escala. Actualmente estamos coordinando con el hub de Cracovia para contactar con la fundación Auschwitz y ofrecerla como recurso adicional para el memorial. También coordinaremos con profesores de historia de Valencia para que puedan usarla como herramienta en sus clases.",
+      "en": "After a visit to Auschwitz-Birkenau that left us deeply shaken by the sheer scale of the camp, we built Size of Pain, a tool to help visualise that scale. We're currently coordinating with the Kraków hub to reach out to the Auschwitz foundation and offer it as an additional resource for the memorial. We will also coordinate with history teachers in Valencia so they can use it as a tool in their classes.",
+      "val": "Després d'una visita a Auschwitz-Birkenau que ens va deixar profundament impactats per la magnitud del camp, vam desenvolupar l'eina Size of Pain, que ajuda a visualitzar eixa escala. Actualment estem coordinant-nos amb el hub de Cracòvia per a contactar amb la fundació Auschwitz i oferir-la com a recurs addicional per al memorial. També ens coordinarem amb professorat d'història de València perquè puguen utilitzar-la com a eina a les seues classes."
     },
+    "url": "https://size-of-pain.vercel.app",
     "peopleImpacted": null,
     "status": "ongoing"
   },
@@ -86,7 +83,6 @@
       "en": "GXVLC Collab",
       "val": "Col·laboració GXVLC"
     },
-    "image": "/public/projects/gxvlc-collab.jpg",
     "description": {
       "es": "Colaboramos con la Fundación Princesa de Girona para entrevistar a jóvenes afectados por la DANA, garantizando que sus voces se incluyeran en un White Paper oficial. Dos de nuestros Shapers se incorporaron al Core Team de la iniciativa, y ayudamos a difundir la encuesta, apoyar las entrevistas y participar en un Hackathon para diseñar soluciones ante futuras emergencias.",
       "en": "We partnered with the Fundación Princesa de Girona to interview young people affected by the DANA floods, making sure their voices were included in an official White Paper. Two of our Shapers joined the initiative's Core Team, and we helped spread the survey, support the interviews, and take part in a Hackathon to design solutions for future emergencies.",
@@ -102,7 +98,6 @@
       "en": "Learning for Social Impact",
       "val": "Aprenentatge per a l'Impacte Social"
     },
-    "image": "/public/projects/learning-for-social-impact.jpg",
     "description": {
       "es": "Junto al Center for Digital Technology and Management (CDTM) organizamos una serie de talleres sobre trabajo en equipo social y diseño de proyectos para estudiantes universitarios. A lo largo de varias semanas, más de 20 participantes co-diseñaron soluciones a retos locales, con Shapers de otros Hubs actuando como evaluadores externos, dando lugar a 4 nuevos proyectos.",
       "en": "Together with the Center for Digital Technology and Management (CDTM) we ran a series of workshops on social teamwork and project design for university students. Over several weeks, more than 20 participants co-designed solutions to local challenges, with Shapers from other Hubs joining as external evaluators, resulting in 4 new projects.",
@@ -118,7 +113,6 @@
       "en": "WeVolve",
       "val": "WeVolve"
     },
-    "image": "/public/projects/wevolve.jpg",
     "description": {
       "es": "Nos unimos a Hubs de cinco países para organizar el WeVolve Workshop, compartiendo conocimientos sobre el ecosistema emprendedor de cada país. Desde Valencia organizamos la sesión 'Women Empowering the Future of STEM & Entrepreneurship', abordando las barreras que enfrentan las mujeres en los campos STEM y en el emprendimiento.",
       "en": "We joined Hubs from five countries to organise the WeVolve Workshop, sharing insights on each country's entrepreneurial ecosystem. From Valencia we hosted the session 'Women Empowering the Future of STEM & Entrepreneurship', addressing the barriers women face in STEM fields and entrepreneurship.",
@@ -134,7 +128,6 @@
       "en": "Clothing Swap",
       "val": "Intercanvi de Roba"
     },
-    "image": "/public/projects/clothing-swap.jpg",
     "description": {
       "es": "Organizado junto a Mou-te (Universitat Politècnica de València) y Jeanologia, este evento combinó una charla formativa sobre el impacto ambiental de la industria textil con un mercadillo de intercambio de ropa, fomentando la moda circular y reduciendo los residuos textiles.",
       "en": "Organised with Mou-te (Universitat Politècnica de València) and Jeanologia, this event paired an educational talk on the textile industry's environmental impact with a clothing swap market, promoting circular fashion and reducing textile waste.",
@@ -150,7 +143,6 @@
       "en": "Collab with Sociedad Filarmónica",
       "val": "Col·laboració amb la Societat Filharmònica"
     },
-    "image": "/public/projects/sociedad-filarmonica.jpg",
     "description": {
       "es": "Asistimos a una inspiradora conferencia sobre estética y arte impartida por Javier Aloy, seguida del XIII Concierto de la Orquesta de Cámara de la Sociedad Filarmónica de Valencia, destacando el papel esencial de la cultura para enriquecer la vida urbana.",
       "en": "We attended an inspiring lecture on aesthetics and art by Javier Aloy, followed by the XIII Concert of the Valencia Philharmonic Society Chamber Orchestra, highlighting the vital role culture plays in enriching urban life.",
@@ -158,5 +150,21 @@
     },
     "peopleImpacted": 50,
     "status": "completed"
+  },
+  {
+    "id": 11,
+    "name": {
+      "es": "Camí",
+      "en": "Camí",
+      "val": "Camí"
+    },
+    "description": {
+      "es": "Shapers de Valencia participamos en Bridging Futures, una iniciativa del Hub de Ramallah que apoya a estudiantes y recién graduados palestinos con formación, mentoría y acceso a oportunidades. Junto a Ramallah creamos Camí, su plataforma compartida de programas de admisión universitaria y becas en todo el mundo: qué cubre cada programa, quién puede solicitarlo, qué documentos pide y sus fechas, con enlace a la fuente oficial. Desde Valencia la hemos construido y coordinamos el equipo que revisa cada propuesta antes de publicarla, mientras Shapers de cualquier hub añaden nuevos programas.",
+      "en": "Valencia Shapers take part in Bridging Futures, a Ramallah Hub initiative that supports Palestinian students and graduates with skills training, mentorship and access to opportunities. Together with Ramallah we created Camí, its shared platform for university admission and scholarship programmes worldwide: what each programme covers, who can apply, the documents it asks for and its dates, with a link to the official source. From Valencia we built it and run the team that reviews every submission before it is published, while Shapers from any hub add new programmes.",
+      "val": "Shapers de València participem en Bridging Futures, una iniciativa del Hub de Ramallah que dona suport a estudiants i recent graduats palestins amb formació, mentoria i accés a oportunitats. Junt amb Ramallah vam crear Camí, la seua plataforma compartida de programes d'admissió universitària i beques arreu del món: què cobrix cada programa, qui pot sol·licitar-lo, quins documents demana i les seues dates, amb enllaç a la font oficial. Des de València l'hem construïda i coordinem l'equip que revisa cada proposta abans de publicar-la, mentre Shapers de qualsevol hub afegixen nous programes."
+    },
+    "url": "https://cami-gs.vercel.app",
+    "peopleImpacted": null,
+    "status": "ongoing"
   }
 ]
