@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Javier Boix Campos",
     "photo": "/public/team/javier-boix.jpg",
-    "photoPosition": "center 25%",
+    "photoPosition": "center 30%",
     "role": {
       "es": "Curador del Hub",
       "en": "Hub Curator",
@@ -40,6 +40,7 @@
     "id": 3,
     "name": "Alejandro García Salón",
     "photo": "/public/team/alejandro-garcia.jpg",
+    "photoPosition": "center 20%",
     "role": {
       "es": "Responsable de Impacto",
       "en": "Impact Officer",
