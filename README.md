@@ -55,7 +55,6 @@ i18n/es.json              Spanish interface strings
 i18n/en.json              English interface strings
 i18n/val.json              Valencian interface strings
 public/team/              Real team photos go here (see its README.md)
-public/projects/          Real project images go here (see its README.md)
 ```
 
 The homepage no longer renders the full team/project grids. It shows a

@@ -205,11 +205,8 @@
         : project.status;
 
       card.innerHTML = `
-        <div class="project-image">
-          <span class="status-badge ${project.status}">${escapeHtml(statusLabel)}</span>
-          <div class="fallback"></div>
-        </div>
         <div class="project-body">
+          <span class="status-badge ${project.status}">${escapeHtml(statusLabel)}</span>
           <h3>${escapeHtml(localized(project.name, lang))}</h3>
           <p class="project-desc">${escapeHtml(localized(project.description, lang))}</p>
           <div class="project-impact">
@@ -218,19 +215,6 @@
           </div>
         </div>
       `;
-
-      const imageWrap = card.querySelector('.project-image');
-      const img = new Image();
-      img.alt = localized(project.name, lang);
-      img.loading = 'lazy';
-      img.onload = () => {
-        imageWrap.querySelector('.fallback').remove();
-        imageWrap.appendChild(img);
-      };
-      img.onerror = () => {
-        /* keep gradient fallback */
-      };
-      if (project.image) img.src = project.image;
 
       grid.appendChild(card);
     });
