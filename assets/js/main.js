@@ -219,8 +219,22 @@
         </div>
       `;
 
+      if (isHttpUrl(project.url)) {
+        const link = document.createElement('a');
+        link.className = 'project-link';
+        link.href = project.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = getPath(dict, 'projects.visit');
+        card.querySelector('.project-impact').appendChild(link);
+      }
+
       grid.appendChild(card);
     });
+  }
+
+  function isHttpUrl(value) {
+    return typeof value === 'string' && /^https?:\/\//.test(value);
   }
 
   // Numbers are localised; strings (e.g. "+100") are shown as written.

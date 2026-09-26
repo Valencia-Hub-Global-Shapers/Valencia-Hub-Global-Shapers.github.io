@@ -76,7 +76,8 @@
     "filterCompleted": "Completed",
     "filterOngoing": "Ongoing",
     "filterUpcoming": "Upcoming",
-    "impacted": "people impacted"
+    "impacted": "people impacted",
+    "visit": "Visit project"
   },
   "alumni": {
     "eyebrow": "Alumni",

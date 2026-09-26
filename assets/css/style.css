@@ -815,6 +815,14 @@ section { padding-block: var(--section-pad); position: relative; }
   border-top: 1px solid var(--line);
 }
 .project-impact svg { width: 15px; height: 15px; color: var(--accent); }
+.project-link {
+  margin-left: auto;
+  color: var(--blue);
+  white-space: nowrap;
+  border-bottom: 1px solid currentColor;
+}
+.project-link::after { content: ' \2197'; }
+.project-link:hover { color: var(--accent); }
 
 /* ===================================================================
    CTA BAND
