@@ -23,7 +23,6 @@
   --blue: #054985;
   --blue-deep: #04365f;
   --blue-bright: #0a5fa8;
-  --wordmark-grey: #5f696c;
   --accent: #d6521d;          /* burnt Valencia orange — used sparingly */
   --accent-deep: #b4400e;
   --gold: #e3b23c;
@@ -146,30 +145,14 @@ section { padding-block: var(--section-pad); position: relative; }
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding-block: 15px;
+  padding-block: 10px;
 }
 .brand {
   display: flex;
   align-items: center;
   gap: 11px;
 }
-.brand-mark { width: 34px; height: 34px; flex-shrink: 0; display: block; }
-.brand-word {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.78rem;
-  line-height: 1.1;
-  letter-spacing: 0.055em;
-  text-transform: uppercase;
-  color: var(--wordmark-grey);
-}
-.brand-word small {
-  display: block;
-  font-size: inherit;
-  font-weight: 700;
-  letter-spacing: 0.055em;
-  color: var(--blue);
-}
+.brand-logo { height: 68px; width: auto; flex-shrink: 0; display: block; }
 .nav-links {
   display: flex;
   gap: 28px;
@@ -1041,7 +1024,7 @@ section { padding-block: var(--section-pad); position: relative; }
   .nav-right { gap: 10px; }
   .lang-switch button { padding: 6px 7px; }
   .brand { gap: 9px; font-size: 1rem; }
-  .brand-mark { width: 28px; height: 28px; }
+  .brand-logo { height: 54px; }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .team-grid { grid-template-columns: 1fr 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
