@@ -26,6 +26,7 @@
       "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye. More than 100 people have already taken part, and over 10 hubs have joined the initiative.",
       "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític. Ja hi han participat més de 100 persones i més de 10 hubs s'han sumat a la iniciativa."
     },
+    "url": "https://aiwareness.vercel.app",
     "peopleImpacted": "+100",
     "status": "ongoing"
   },
