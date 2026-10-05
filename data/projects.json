@@ -2,17 +2,18 @@
   {
     "id": 1,
     "name": {
-      "es": "Plataforma de Vivienda",
-      "en": "Housing Platform",
-      "val": "Plataforma d'Habitatge"
+      "es": "Lloguer",
+      "en": "Lloguer",
+      "val": "Lloguer"
     },
     "description": {
-      "es": "Estamos desarrollando una plataforma de vivienda: una base de datos abierta para publicar y consultar ofertas de piso compartido en Valencia, con filtros por barrio, precio, número de compañeros y género, pensada para centralizar lo que hoy está disperso en historias de Instagram y grupos de WhatsApp. El objetivo es ayudar a esquivar a los especuladores inmobiliarios y difundirla con universidades, influencers y el Ayuntamiento, siempre sin ánimo de lucro.",
-      "en": "We're building a housing platform: an open database to post and browse shared-flat listings in Valencia, filterable by neighbourhood, price, number of flatmates and gender, aimed at centralising what today is scattered across Instagram stories and WhatsApp groups. The goal is to help people bypass real-estate speculators, and we plan to promote it with universities, influencers and the City Council, all run on a non-profit basis.",
-      "val": "Estem desenvolupant una plataforma d'habitatge: una base de dades oberta per a publicar i consultar ofertes de pis compartit a València, amb filtres per barri, preu, nombre de companys i gènere, pensada per a centralitzar el que hui està dispers en històries d'Instagram i grups de WhatsApp. L'objectiu és ajudar a esquivar els especuladors immobiliaris i difondre-la amb universitats, influencers i l'Ajuntament, sempre sense ànim de lucre."
+      "es": "Lloguer ya está en marcha: un mapa abierto de habitaciones y pisos compartidos entre particulares en toda España, que reúne en un solo sitio lo que hoy está disperso en grupos de WhatsApp e historias de Instagram. Es gratis y sin registro, se puede filtrar por barrio, precio, número de compañeros y género, y una persona revisa cada anuncio antes de publicarlo. Ahora buscamos alianzas con universidades, el Ayuntamiento y otras instituciones para darlo a conocer, siempre sin ánimo de lucro.",
+      "en": "Lloguer is now live: an open map of rooms and shared flats let directly by their owners or tenants anywhere in Spain, bringing together what is today scattered across WhatsApp groups and Instagram stories. It is free and needs no signup, can be filtered by neighbourhood, price, number of flatmates and gender, and a person reviews every listing before it goes live. We are now looking for partnerships with universities, the City Council and other institutions to help spread the word, all on a non-profit basis.",
+      "val": "Lloguer ja està en marxa: un mapa obert d'habitacions i pisos compartits entre particulars a tota Espanya, que reunix en un sol lloc el que hui està dispers en grups de WhatsApp i històries d'Instagram. És gratuït i sense registre, es pot filtrar per barri, preu, nombre de companys i gènere, i una persona revisa cada anunci abans de publicar-lo. Ara busquem aliances amb universitats, l'Ajuntament i altres institucions per a donar-lo a conéixer, sempre sense ànim de lucre."
     },
+    "url": "https://www.lloguer.org/",
     "peopleImpacted": null,
-    "status": "upcoming"
+    "status": "ongoing"
   },
   {
     "id": 2,
