@@ -169,6 +169,24 @@
     }
   },
   {
+    "id": 15,
+    "name": "Giulianno Caltabiano Arias",
+    "photo": "/public/team/giulianno.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Giulianno es un chico que actualmente estudia Economía y ha participado como Eurodiputado Junior de la UE, aunque detrás de todo su perfil académico se esconde un aficionado a los videojuegos y baterista en su tiempo libre.",
+      "en": "Giulianno is currently studying Economics and has taken part as a Junior MEP of the EU, though behind all that academic profile hides a video game enthusiast and drummer in his spare time.",
+      "val": "Giulianno és un xic que actualment estudia Economia i ha participat com a Eurodiputat Junior de la UE, encara que darrere de tot el seu perfil acadèmic s'amaga un aficionat als videojocs i bateria en el seu temps lliure."
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/giulianno-caltabiano-arias-94bbab315"
+    }
+  },
+  {
     "id": 10,
     "name": "Alvaro Peguero",
     "photo": "/public/team/alvaro-peguero.jpg",
@@ -226,24 +244,6 @@
     "id": 13,
     "name": "Claudia",
     "photo": "/public/team/claudia.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 15,
-    "name": "Giulianno",
-    "photo": "/public/team/giulianno.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
