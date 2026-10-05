@@ -187,6 +187,24 @@
     }
   },
   {
+    "id": 18,
+    "name": "Laura Alba Tirado",
+    "photo": "/public/team/laura.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Laura estudia Filología Hispánica y puede pasarse horas entre libros. Pero no todo es leer: también le encanta probar todo tipo de deportes y cualquier cosa que suponga aprender algo nuevo. Practica hípica, tiro con arco y artes marciales. Siempre encuentra algo nuevo que hacer.",
+      "en": "Laura is studying Hispanic Philology and can spend hours lost in books. But it's not all reading: she also loves trying out every kind of sport and anything that means learning something new. She practices horse riding, archery, and martial arts. She always finds something new to do.",
+      "val": "Laura estudia Filologia Hispànica i pot passar-se hores entre llibres. Però no tot és llegir: també li encanta provar tot tipus d'esports i qualsevol cosa que supose aprendre alguna cosa nova. Practica hípica, tir amb arc i arts marcials. Sempre troba alguna cosa nova per fer."
+    },
+    "links": {
+      "linkedin": ""
+    }
+  },
+  {
     "id": 10,
     "name": "Alvaro Peguero",
     "photo": "/public/team/alvaro-peguero.jpg",
@@ -280,24 +298,6 @@
     "id": 17,
     "name": "Javier Salazar",
     "photo": "/public/team/javier-salazar.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 18,
-    "name": "Laura",
-    "photo": "/public/team/laura.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
