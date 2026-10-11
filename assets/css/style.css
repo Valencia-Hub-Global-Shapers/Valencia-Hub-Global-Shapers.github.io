@@ -555,6 +555,20 @@ section { padding-block: var(--section-pad); position: relative; }
 .social-link:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
 
 /* ===================================================================
+   VISITING VALENCIA
+   =================================================================== */
+.visit-section { background: var(--paper-2); padding-block: clamp(40px, 4.5vw, 58px); }
+.visit-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(24px, 5vw, 56px);
+  flex-wrap: wrap;
+}
+.visit-section .section-head { margin-bottom: 0; }
+.visit-section .section-head .section-title { max-width: 30ch; }
+
+/* ===================================================================
    TEAM
    =================================================================== */
 .team-section { background: var(--paper); }
