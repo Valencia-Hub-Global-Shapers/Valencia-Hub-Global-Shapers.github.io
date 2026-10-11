@@ -59,6 +59,11 @@
     "eyebrow": "Segueix el hub",
     "title": "Mant\u00e9n-te a prop del que estem construint"
   },
+  "visit": {
+    "eyebrow": "Visites Val\u00e8ncia?",
+    "title": "Els nostres membres han preparat una llista de recomanacions",
+    "cta": "Obri el mapa"
+  },
   "team": {
     "eyebrow": "Qui som",
     "title": "Les persones darrere del hub",

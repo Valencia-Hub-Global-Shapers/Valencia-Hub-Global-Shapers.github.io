@@ -59,6 +59,11 @@
     "eyebrow": "Follow the hub",
     "title": "Stay close to what we're building"
   },
+  "visit": {
+    "eyebrow": "Visiting Valencia?",
+    "title": "Our members have prepared a list of recommendations",
+    "cta": "Open the map"
+  },
   "team": {
     "eyebrow": "Who we are",
     "title": "The people behind the hub",
