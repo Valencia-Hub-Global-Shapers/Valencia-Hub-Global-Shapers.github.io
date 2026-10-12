@@ -226,6 +226,7 @@
     "id": 20,
     "name": "Simón Correcher Zaragozá",
     "photo": "/public/team/simon.jpg",
+    "photoPosition": "center 25%",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
