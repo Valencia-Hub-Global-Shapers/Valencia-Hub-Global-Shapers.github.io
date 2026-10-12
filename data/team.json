@@ -242,27 +242,27 @@
     }
   },
   {
-    "id": 10,
-    "name": "Alvaro Peguero",
-    "photo": "/public/team/alvaro-peguero.jpg",
+    "id": 11,
+    "name": "Assumpta Martínez",
+    "photo": "/public/team/assumpta.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
       "val": "Shaper"
     },
     "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+      "es": "Assumpta es Ingeniera Multimedia y actualmente cursa un máster en Marketing y Ventas, además de trabajar como técnica de Marketing. Fue becada para cursar CDTM, donde obtuvo un \"Honors Degree in Technology Management\".",
+      "en": "Assumpta is a Multimedia Engineer who is currently pursuing a master's degree in Marketing and Sales while working as a Marketing technician. She was awarded a scholarship to study at CDTM, where she earned an \"Honors Degree in Technology Management\".",
+      "val": "Assumpta és Enginyera Multimèdia i actualment cursa un màster en Màrqueting i Vendes, a més de treballar com a tècnica de Màrqueting. Va ser becada per cursar CDTM, on va obtindre un \"Honors Degree in Technology Management\"."
     },
     "links": {
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/assumpta-mart%C3%ADnez-mora-martinez-995901184"
     }
   },
   {
-    "id": 11,
-    "name": "Assumpta",
-    "photo": "/public/team/assumpta.jpg",
+    "id": 10,
+    "name": "Alvaro Peguero",
+    "photo": "/public/team/alvaro-peguero.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
