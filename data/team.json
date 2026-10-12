@@ -223,6 +223,24 @@
     }
   },
   {
+    "id": 20,
+    "name": "Simón Correcher Zaragozá",
+    "photo": "/public/team/simon.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Simón es técnico en Comercio Internacional y estudia Ciencia Política en la UNED. Le interesan la política europea, la economía y el emprendimiento, y quiere aportar ideas y proyectos útiles para Valencia.",
+      "en": "Simón is a technician in International Trade and studies Political Science at UNED. He is interested in European politics, economics and entrepreneurship, and wants to contribute ideas and projects that are useful for Valencia.",
+      "val": "Simón és tècnic en Comerç Internacional i estudia Ciència Política a la UNED. Li interessen la política europea, l'economia i l'emprenedoria, i vol aportar idees i projectes útils per a València."
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/sim%C3%B3n-correcher-zaragoz%C3%A1-508236251"
+    }
+  },
+  {
     "id": 10,
     "name": "Alvaro Peguero",
     "photo": "/public/team/alvaro-peguero.jpg",
@@ -316,24 +334,6 @@
     "id": 19,
     "name": "Maria",
     "photo": "/public/team/maria.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 20,
-    "name": "Simón",
-    "photo": "/public/team/simon.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
