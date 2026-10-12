@@ -205,6 +205,24 @@
     }
   },
   {
+    "id": 17,
+    "name": "Javier Salazar",
+    "photo": "/public/team/javier-salazar.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Javier es Lic. en Estudios Liberales y tiene experiencia en narrativa y comunicación digital. Llegó a Valencia con la curiosidad del viajero y la mirada de quien empieza de cero lejos de casa. Trabaja en el sector turístico, lo que le ha permitido conocer la ciudad desde dentro y acercarse a las perspectivas de quienes la visitan. Nunca rechaza un café y siempre encuentra una buena excusa para salir a caminar.",
+      "en": "Javier holds a degree in Liberal Studies and has experience in storytelling and digital communication. He arrived in Valencia with a traveler's curiosity and the outlook of someone starting from scratch far from home. He works in the tourism sector, which has let him get to know the city from the inside and see it through the eyes of those who visit. He never turns down a coffee and always finds a good excuse to go for a walk.",
+      "val": "Javier és Llic. en Estudis Liberals i té experiència en narrativa i comunicació digital. Va arribar a València amb la curiositat del viatger i la mirada de qui comença de zero lluny de casa. Treballa en el sector turístic, cosa que li ha permés conéixer la ciutat des de dins i apropar-se a les perspectives dels qui la visiten. Mai rebutja un café i sempre troba una bona excusa per eixir a caminar."
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/javsalazarv"
+    }
+  },
+  {
     "id": 10,
     "name": "Alvaro Peguero",
     "photo": "/public/team/alvaro-peguero.jpg",
@@ -280,24 +298,6 @@
     "id": 16,
     "name": "Iván Panushev",
     "photo": "/public/team/ivan-panushev.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 17,
-    "name": "Javier Salazar",
-    "photo": "/public/team/javier-salazar.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
