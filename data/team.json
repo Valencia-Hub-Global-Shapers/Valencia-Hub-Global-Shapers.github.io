@@ -260,6 +260,24 @@
     }
   },
   {
+    "id": 21,
+    "name": "Jostin Marín",
+    "photo": "/public/team/jostin.jpg",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Jostin es CEO y fundador de REPARA.ME. Emprendedor valenciano vinculado al sector tecnológico desde los 16 años, cuando comenzó a reparar dispositivos móviles. REPARA.ME está especializada en reparación de teléfonos a domicilio y recuperación de datos, y desde ella impulsa también proyectos sociales relacionados con la formación y la prolongación de la vida útil de la tecnología. Ganador del programa Crea y Crece de Cámara Valencia y seleccionado en el programa Young Impact de UNESCO x Nestlé, forma parte del Consejo Alumni de la Cátedra de Cultura Empresarial de la Universitat de València y del Comité FreeThinkers, y colabora con Fundación Alfa-Z en iniciativas orientadas a acercar el emprendimiento, la cultura financiera y el desarrollo profesional a los jóvenes.",
+      "en": "Jostin is the CEO and founder of REPARA.ME. A Valencian entrepreneur tied to the tech sector since the age of 16, when he started repairing mobile devices. REPARA.ME specializes in at-home phone repair and data recovery, and through it he also drives social projects related to training and extending the useful life of technology. A winner of the Crea y Crece program of Cámara Valencia and selected for the UNESCO x Nestlé Young Impact program, he is a member of the Alumni Council of the Business Culture Chair at the Universitat de València and of the FreeThinkers Committee, and collaborates with Fundación Alfa-Z on initiatives that bring entrepreneurship, financial literacy and professional development closer to young people.",
+      "val": "Jostin és CEO i fundador de REPARA.ME. Emprenedor valencià vinculat al sector tecnològic des dels 16 anys, quan va començar a reparar dispositius mòbils. REPARA.ME està especialitzada en reparació de telèfons a domicili i recuperació de dades, i des d'ella impulsa també projectes socials relacionats amb la formació i l'allargament de la vida útil de la tecnologia. Guanyador del programa Crea y Crece de Cámara Valencia i seleccionat en el programa Young Impact d'UNESCO x Nestlé, forma part del Consell Alumni de la Càtedra de Cultura Empresarial de la Universitat de València i del Comité FreeThinkers, i col·labora amb Fundació Alfa-Z en iniciatives orientades a apropar l'emprenedoria, la cultura financera i el desenvolupament professional als joves."
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/jostinmarinosorio"
+    }
+  },
+  {
     "id": 10,
     "name": "Alvaro Peguero",
     "photo": "/public/team/alvaro-peguero.jpg",
@@ -335,24 +353,6 @@
     "id": 19,
     "name": "Maria",
     "photo": "/public/team/maria.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 21,
-    "name": "Yostin",
-    "photo": "/public/team/yostin.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
