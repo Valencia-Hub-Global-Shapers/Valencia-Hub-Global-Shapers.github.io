@@ -296,6 +296,25 @@
     }
   },
   {
+    "id": 22,
+    "name": "Nicolás Vega Ruiz",
+    "photo": "/public/team/nicolas.jpg",
+    "photoPosition": "center 25%",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "Nicolás es originario de Bogotá, Colombia, y vive en Valencia desde hace nueve años. Le interesan las finanzas, la tecnología y el emprendimiento, con pasión por el aprendizaje continuo y el desarrollo personal. Disfruta viajando, descubriendo nuevas culturas y conectando con personas de distintos orígenes. El deporte es también una parte importante de su vida, y siempre tiene curiosidad por explorar nuevas ideas, ganar nuevas perspectivas y seguir creciendo personal y profesionalmente.",
+      "en": "Nicolás is originally from Bogotá, Colombia, and has lived in Valencia for the past nine years. He is interested in finance, technology and entrepreneurship, with a passion for continuous learning and personal development. He enjoys traveling, discovering new cultures and connecting with people from different backgrounds. Sports are also an important part of his life, and he is always curious to explore new ideas, gain new perspectives and keep growing both personally and professionally.",
+      "val": "Nicolás és originari de Bogotà, Colòmbia, i viu a València des de fa nou anys. Li interessen les finances, la tecnologia i l'emprenedoria, amb passió per l'aprenentatge continu i el desenvolupament personal. Gaudeix viatjant, descobrint noves cultures i connectant amb persones de diferents orígens. L'esport és també una part important de la seua vida, i sempre té curiositat per explorar noves idees, guanyar noves perspectives i seguir creixent personal i professionalment."
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/nicolas-vega-ruiz"
+    }
+  },
+  {
     "id": 12,
     "name": "Carmen",
     "photo": "/public/team/carmen.jpg",
