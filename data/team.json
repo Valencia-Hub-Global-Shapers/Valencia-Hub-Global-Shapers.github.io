@@ -278,45 +278,27 @@
     }
   },
   {
-    "id": 10,
-    "name": "Alvaro Peguero",
-    "photo": "/public/team/alvaro-peguero.jpg",
+    "id": 13,
+    "name": "Claudia Silvestre",
+    "photo": "/public/team/claudia.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
       "val": "Shaper"
     },
     "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+      "es": "Claudia es cofundadora y CEO de OlaCreators, una startup del sector del marketing que está transformando la forma en que las empresas y agencias encuentran talento creativo especializado en redes sociales, y profesionalizando la profesión de la creación de contenido. Es ingeniera en gestión empresarial y apasionada por el emprendimiento y la optimización de procesos con IA.",
+      "en": "Claudia is the co-founder and CEO of OlaCreators, a marketing startup that is transforming the way companies and agencies find creative talent specialized in social media, and professionalizing the content creation profession. She is a business management engineer and is passionate about entrepreneurship and process optimization with AI.",
+      "val": "Claudia és cofundadora i CEO d'OlaCreators, una startup del sector del màrqueting que està transformant la manera en què les empreses i agències troben talent creatiu especialitzat en xarxes socials, i professionalitzant la professió de la creació de contingut. És enginyera en gestió empresarial i apassionada per l'emprenedoria i l'optimització de processos amb IA."
     },
     "links": {
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/claudiasilvestregarcia"
     }
   },
   {
     "id": 12,
     "name": "Carmen",
     "photo": "/public/team/carmen.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 13,
-    "name": "Claudia",
-    "photo": "/public/team/claudia.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
