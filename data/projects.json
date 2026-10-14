@@ -23,12 +23,12 @@
       "val": "AIwareness"
     },
     "description": {
-      "es": "AIwareness es una WebApp interactiva pensada para concienciar sobre lo difícil que resulta ya distinguir el contenido generado por IA del contenido real. El usuario recorre una serie de imágenes y va decidiendo cuáles son reales y cuáles no; después se le indica en cuáles ha acertado y se le ofrece formación adicional sobre qué detalles fijarse para mejorar su ojo crítico. Ya han participado más de 100 personas y más de 10 hubs se han sumado a la iniciativa.",
-      "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye. More than 100 people have already taken part, and over 10 hubs have joined the initiative.",
-      "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític. Ja hi han participat més de 100 persones i més de 10 hubs s'han sumat a la iniciativa."
+      "es": "AIwareness es una WebApp interactiva pensada para concienciar sobre lo difícil que resulta ya distinguir el contenido generado por IA del contenido real. El usuario recorre una serie de imágenes y va decidiendo cuáles son reales y cuáles no; después se le indica en cuáles ha acertado y se le ofrece formación adicional sobre qué detalles fijarse para mejorar su ojo crítico. Ya han participado más de 350 personas y más de 10 hubs se han sumado a la iniciativa.",
+      "en": "AIwareness is an interactive WebApp designed to raise awareness of how hard it has become to tell AI-generated content apart from real content. Users go through a series of images, deciding which are real and which aren't, then find out which ones they got right and receive extra training on what to look out for to sharpen their critical eye. More than 350 people have already taken part, and over 10 hubs have joined the initiative.",
+      "val": "AIwareness és una WebApp interactiva pensada per a conscienciar sobre el difícil que resulta ja distingir el contingut generat per IA del contingut real. L'usuari recorre una sèrie d'imatges i va decidint quines són reals i quines no; després se li indica en quines ha encertat i se li oferix formació addicional sobre en quins detalls fixar-se per a millorar el seu ull crític. Ja hi han participat més de 350 persones i més de 10 hubs s'han sumat a la iniciativa."
     },
     "url": "https://aiwareness.vercel.app",
-    "peopleImpacted": "+100",
+    "peopleImpacted": "+350",
     "status": "ongoing"
   },
   {
@@ -167,5 +167,65 @@
     "url": "https://cami-gs.vercel.app",
     "peopleImpacted": null,
     "status": "ongoing"
+  },
+  {
+    "id": 12,
+    "name": {
+      "es": "FinanCity",
+      "en": "FinanCity",
+      "val": "FinanCity"
+    },
+    "description": {
+      "es": "Con la empresa Momento Cero, que ha desarrollado un juego de mesa y un programa de formación y acreditación para profesorado, trabajamos para llevar la educación financiera básica a estudiantes de secundaria y bachillerato (14 a 18 años) de Valencia. Contactamos con centros educativos interesados, negociamos el presupuesto con la empresa y exploramos opciones de financiación.",
+      "en": "With Momento Cero, a company that has developed a board game and a training and accreditation programme for teachers, we worked to bring basic financial education to high school students (aged 14 to 18) in Valencia. We reached out to interested schools, negotiated a budget with the company and explored funding options.",
+      "val": "Amb l'empresa Momento Cero, que ha desenvolupat un joc de taula i un programa de formació i acreditació per al professorat, vam treballar per a portar l'educació financera bàsica a estudiants de secundària i batxillerat (de 14 a 18 anys) de València. Vam contactar amb centres educatius interessats, vam negociar el pressupost amb l'empresa i vam explorar opcions de finançament."
+    },
+    "peopleImpacted": null,
+    "status": "completed"
+  },
+  {
+    "id": 13,
+    "name": {
+      "es": "Encuentra tu voz",
+      "en": "Finding your voice",
+      "val": "Troba la teua veu"
+    },
+    "description": {
+      "es": "Junto a la coach profesional Victoria Doebbel, que compartió con nosotros su método de coaching en grupo, quisimos acercar el coaching a mujeres adultas de Valencia sin acceso a él. Nos formamos en dos talleres piloto, diseñamos en colaboración nuestro primer taller en Valencia y contactamos con organizaciones que pudieran actuar como intermediarias con las participantes.",
+      "en": "Together with professional coach Victoria Doebbel, who shared her group coaching method with us, we set out to bring coaching to adult women in Valencia who would not otherwise have access to it. We trained through two pilot workshops, co-designed our first workshop in Valencia and reached out to organisations that could act as intermediaries with participants.",
+      "val": "Junt amb la coach professional Victoria Doebbel, que va compartir amb nosaltres el seu mètode de coaching en grup, vam voler apropar el coaching a dones adultes de València sense accés a ell. Ens vam formar en dos tallers pilot, vam dissenyar en col·laboració el nostre primer taller a València i vam contactar amb organitzacions que poguessen actuar com a intermediàries amb les participants."
+    },
+    "peopleImpacted": null,
+    "status": "completed"
+  },
+  {
+    "id": 14,
+    "name": {
+      "es": "Escuelas con Aire Limpio",
+      "en": "Air Quality Schools",
+      "val": "Escoles amb Aire Net"
+    },
+    "description": {
+      "es": "Planteamos generar de forma estable datos públicos sobre la calidad del aire en Valencia, empezando por las zonas escolares. Investigamos qué empresas y asociaciones locales podrían colaborar y estudiamos cómo las asociaciones de madres y padres podrían respaldar nuestra propuesta al gobierno local.",
+      "en": "We set out to generate publicly available, stable data on air quality in Valencia, starting from school areas. We researched which local companies and associations could collaborate and looked into how parent associations could back our proposal to the local government.",
+      "val": "Vam plantejar generar de manera estable dades públiques sobre la qualitat de l'aire a València, començant per les zones escolars. Vam investigar quines empreses i associacions locals podrien col·laborar i vam estudiar com les associacions de mares i pares podrien recolzar la nostra proposta al govern local."
+    },
+    "peopleImpacted": null,
+    "status": "completed"
+  },
+  {
+    "id": 15,
+    "name": {
+      "es": "Talks2Shape",
+      "en": "Talks2Shape",
+      "val": "Talks2Shape"
+    },
+    "description": {
+      "es": "Organizamos charlas pequeñas e interactivas con personas expertas de distintos ámbitos para jóvenes de 18 a 35 años, seguidas de espacios de networking con los ponentes. La primera, en junio de 2025, trató sobre cómo desarrollar un proyecto social.",
+      "en": "We organised small, interactive talks with experts from different fields for young people aged 18 to 35, followed by networking time with the speakers. The first, in June 2025, was on how to develop a social project.",
+      "val": "Vam organitzar xarrades xicotetes i interactives amb persones expertes de diferents àmbits per a joves de 18 a 35 anys, seguides d'espais de networking amb els ponents. La primera, al juny de 2025, va tractar sobre com desenvolupar un projecte social."
+    },
+    "peopleImpacted": null,
+    "status": "completed"
   }
 ]
