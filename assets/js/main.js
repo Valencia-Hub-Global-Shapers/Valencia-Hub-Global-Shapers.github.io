@@ -207,19 +207,26 @@
         ? getPath(dict, statusLabelKey[project.status])
         : project.status;
 
+      const hasImpact = project.peopleImpacted !== null && project.peopleImpacted !== undefined;
+      const hasLink = isHttpUrl(project.url);
+      const impactHtml = hasImpact
+        ? `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg>
+            <span>${escapeHtml(formatImpact(project.peopleImpacted, lang))} ${escapeHtml(getPath(dict, 'projects.impacted'))}</span>`
+        : '';
+      const footerHtml = hasImpact || hasLink
+        ? `<div class="project-impact">${impactHtml}</div>`
+        : '';
+
       card.innerHTML = `
         <div class="project-body">
           <span class="status-badge ${project.status}">${escapeHtml(statusLabel)}</span>
           <h3>${escapeHtml(localized(project.name, lang))}</h3>
           <p class="project-desc">${escapeHtml(localized(project.description, lang))}</p>
-          <div class="project-impact">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg>
-            <span>${escapeHtml(formatImpact(project.peopleImpacted, lang))} ${escapeHtml(getPath(dict, 'projects.impacted'))}</span>
-          </div>
+          ${footerHtml}
         </div>
       `;
 
-      if (isHttpUrl(project.url)) {
+      if (hasLink) {
         const link = document.createElement('a');
         link.className = 'project-link';
         link.href = project.url;
