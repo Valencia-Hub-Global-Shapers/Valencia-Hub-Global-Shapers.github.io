@@ -266,8 +266,7 @@ section { padding-block: var(--section-pad); position: relative; }
   max-width: 380px;
   margin-left: auto;
 }
-.hero-motif svg { width: 100%; height: auto; display: block; }
-.hero-motif .ring-bars { fill: rgba(255, 255, 255, 0.2); }
+.hero-motif img { width: 100%; height: auto; display: block; }
 .hero-eyebrow {
   display: inline-block;
   font-family: var(--font-body);
