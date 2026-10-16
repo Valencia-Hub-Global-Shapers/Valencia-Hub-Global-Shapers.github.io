@@ -315,6 +315,25 @@
     }
   },
   {
+    "id": 19,
+    "name": "María Fernández de Palencia Navarro",
+    "photo": "/public/team/maria.jpg",
+    "photoPosition": "center 20%",
+    "role": {
+      "es": "Shaper",
+      "en": "Shaper",
+      "val": "Shaper"
+    },
+    "bio": {
+      "es": "María es ingeniera aeroespacial y aeronáutica, actualmente es investigadora y doctoranda en gestión térmica de motores eléctricos. Está comprometida con la movilidad sostenible, la representación de las mujeres en el ámbito STEM y la divulgación científica. En su tiempo libre la encontrarás viajando, leyendo o haciendo esgrima.",
+      "en": "María is an aerospace and aeronautical engineer, currently a researcher and PhD candidate in thermal management of electric motors. She is committed to sustainable mobility, the representation of women in STEM, and science outreach. In her free time you will find her traveling, reading or fencing.",
+      "val": "María és enginyera aeroespacial i aeronàutica, actualment és investigadora i doctoranda en gestió tèrmica de motors elèctrics. Està compromesa amb la mobilitat sostenible, la representació de les dones en l'àmbit STEM i la divulgació científica. En el seu temps lliure la trobaràs viatjant, llegint o fent esgrima."
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/mar%C3%ADa-fern%C3%A1ndez-de-palencia-navarro-a02085173"
+    }
+  },
+  {
     "id": 12,
     "name": "Carmen",
     "photo": "/public/team/carmen.jpg",
@@ -336,24 +355,6 @@
     "id": 16,
     "name": "Iván Panushev",
     "photo": "/public/team/ivan-panushev.jpg",
-    "role": {
-      "es": "Shaper",
-      "en": "Shaper",
-      "val": "Shaper"
-    },
-    "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
-    },
-    "links": {
-      "linkedin": ""
-    }
-  },
-  {
-    "id": 19,
-    "name": "Maria",
-    "photo": "/public/team/maria.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
