@@ -1,5 +1,5 @@
 /* =====================================================================
-   Global Shapers Valencia Hub — stylesheet
+   Global Shapers Valencia Hub: stylesheet
 
    Civic-editorial system:
    · Warm paper ground, flat brand blue for dark sections, ONE burnt-orange
@@ -20,11 +20,11 @@
   --line-strong: #d0c7b2;
   --muted: #6b6559;
 
-  /* Brand — sampled from the official Global Shapers Valencia mark */
+  /* Brand: sampled from the official Global Shapers Valencia mark */
   --blue: #054985;
   --blue-deep: #04365f;
   --blue-bright: #0a5fa8;
-  --accent: #d6521d;          /* burnt Valencia orange — used sparingly */
+  --accent: #d6521d;          /* burnt Valencia orange, used sparingly */
   --accent-deep: #b4400e;
   --gold: #e3b23c;
 
@@ -431,7 +431,7 @@ section { padding-block: var(--section-pad); position: relative; }
 }
 
 /* ===================================================================
-   STATS  — editorial figure row
+   STATS: editorial figure row
    =================================================================== */
 .stats-section { background: var(--paper); padding-top: clamp(32px, 4vw, 46px); padding-bottom: clamp(40px, 5vw, 60px); }
 .stats-grid {
@@ -502,7 +502,7 @@ section { padding-block: var(--section-pad); position: relative; }
 .pillar-card p { margin-top: 8px; font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
 
 /* ===================================================================
-   WEF CONNECTION  — stepped index on flat blue
+   WEF CONNECTION: stepped index on flat blue
    =================================================================== */
 .wef-section { background: var(--blue); color: var(--paper); }
 .wef-section .container {
