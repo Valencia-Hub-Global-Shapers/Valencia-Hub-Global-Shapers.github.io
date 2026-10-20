@@ -1212,8 +1212,8 @@ section { padding-block: var(--section-pad); position: relative; }
 .js [data-reveal]:not([data-visible]) { opacity: 0; transform: translateY(22px); }
 .js .chain-node[data-reveal]:not([data-visible])::before { transform: scaleX(0); }
 
-/* Hero headline: four issues take turns, each with a hand-drawn underline.
-   10.4 s loop, 2.6 s per word (delays set inline in index.html). */
+/* Hero headline: six project themes take turns, each with a hand-drawn
+   underline. 15.6 s loop, 2.6 s per word (delays set inline in index.html). */
 .rotator {
   display: grid;
   white-space: nowrap;
@@ -1226,12 +1226,12 @@ section { padding-block: var(--section-pad); position: relative; }
   font-style: italic;
   color: var(--gold);
   opacity: 0;
-  animation: rotator 10.4s cubic-bezier(0.2, 0.7, 0.2, 1) infinite backwards;
+  animation: rotator 15.6s cubic-bezier(0.2, 0.7, 0.2, 1) infinite backwards;
 }
 @keyframes rotator {
   0% { opacity: 0; transform: translateY(0.4em); filter: blur(6px); }
-  4%, 22% { opacity: 1; transform: none; filter: blur(0); }
-  25%, 100% { opacity: 0; transform: translateY(-0.4em); filter: blur(6px); }
+  2.7%, 14.7% { opacity: 1; transform: none; filter: blur(0); }
+  16.67%, 100% { opacity: 0; transform: translateY(-0.4em); filter: blur(6px); }
 }
 .squiggle {
   position: absolute;
@@ -1248,11 +1248,11 @@ section { padding-block: var(--section-pad); position: relative; }
   stroke-linecap: round;
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  animation: squiggle 10.4s cubic-bezier(0.6, 0, 0.3, 1) infinite backwards;
+  animation: squiggle 15.6s cubic-bezier(0.6, 0, 0.3, 1) infinite backwards;
 }
 @keyframes squiggle {
-  0%, 3% { stroke-dashoffset: 1; }
-  11%, 100% { stroke-dashoffset: 0; }
+  0%, 2% { stroke-dashoffset: 1; }
+  7.3%, 100% { stroke-dashoffset: 0; }
 }
 
 /* Slow float on the hero logo */
