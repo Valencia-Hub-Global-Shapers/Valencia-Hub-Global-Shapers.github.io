@@ -13,6 +13,12 @@
   "hero": {
     "eyebrow": "Global Shapers Community \u2014 Valencia Hub",
     "headline": "Local ideas. Real impact on Valencia. Backed by the World Economic Forum.",
+    "headlineBefore": "Local ideas for Valencia's",
+    "headlineWord1": "housing.",
+    "headlineWord2": "climate.",
+    "headlineWord3": "mobility.",
+    "headlineWord4": "education.",
+    "headlineAfter": "Backed by the World Economic Forum.",
     "intro": "We are a volunteer-run hub of young people turning Valencia's most pressing challenges into projects that work \u2014 connected to a network of hubs the World Economic Forum supports in over 150 countries.",
     "ctaProjects": "View our projects",
     "ctaTeam": "Meet the team"
