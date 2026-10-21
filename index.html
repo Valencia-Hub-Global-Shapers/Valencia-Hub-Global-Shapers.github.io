@@ -93,7 +93,7 @@
 <section class="stats-section">
   <div class="container stats-grid" id="statsGrid">
     <div class="stat-item" data-reveal style="--d:0ms">
-      <div class="stat-number" data-count="20">0</div>
+      <div class="stat-number" data-count="20" data-count-from="team">0</div>
       <div class="stat-label" data-i18n="stats.shapers">Active Shapers</div>
     </div>
     <div class="stat-item" data-reveal style="--d:90ms">
@@ -101,7 +101,7 @@
       <div class="stat-label" data-i18n="stats.nationalities">Nationalities in the hub</div>
     </div>
     <div class="stat-item" data-reveal style="--d:180ms">
-      <div class="stat-number" data-count="12">0</div>
+      <div class="stat-number" data-count="15" data-count-from="projects">0</div>
       <div class="stat-label" data-i18n="stats.projects">Projects driven</div>
     </div>
     <div class="stat-item" data-reveal style="--d:270ms">
@@ -179,42 +179,36 @@
   </div>
 </section>
 
-<!-- ============================= SOCIAL ============================= -->
-<section class="social-section">
+<!-- ============================= PROJECTS (live from data/projects.json) ============================= -->
+<section class="home-projects">
   <div class="container">
-    <div class="section-head" data-reveal>
-      <span class="section-eyebrow" data-i18n="social.eyebrow">Follow the hub</span>
-      <h2 class="section-title" data-i18n="social.title">Stay close to what we're building</h2>
+    <div class="home-projects-head" data-reveal>
+      <div>
+        <span class="section-eyebrow" data-i18n="projects.eyebrow">What we've driven</span>
+        <h2 class="section-title" data-i18n="projects.title">Projects, from idea to impact</h2>
+      </div>
+      <p class="teaser-body" data-i18n="projects.teaserBody">From a WebApp that trains your eye against AI-generated content to giving young DANA flood survivors a voice, our projects move from a Shaper's idea to something people can point to. Some are finished, some are running now, others start soon.</p>
     </div>
-    <div class="social-row" data-reveal style="--d:120ms">
-      <a class="social-link" href="https://www.instagram.com/globalshapersvlc/" target="_blank" rel="noopener" aria-label="Instagram">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
-      </a>
-      <a class="social-link" href="https://www.linkedin.com/company/global-shapers-valencia" target="_blank" rel="noopener" aria-label="LinkedIn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7.5" y1="10" x2="7.5" y2="17"/><circle cx="7.5" cy="6.8" r="1"/><path d="M11.5 17v-4.2c0-1.6 1-2.6 2.4-2.6 1.3 0 2.1.9 2.1 2.6V17"/></svg>
-      </a>
-      <a class="social-link" href="https://www.globalshapers.org/hubs/valencia-hub" target="_blank" rel="noopener" aria-label="Global Shapers website">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 4 6 4 9s-1.5 6.3-4 9c-2.5-2.7-4-6-4-9s1.5-6.3 4-9Z"/></svg>
-      </a>
+    <p class="home-projects-label" id="projectsPreviewLabel" data-reveal hidden><span class="live-pip" aria-hidden="true"></span><span data-i18n="projects.runningNow">Running now</span></p>
+    <div class="home-projects-grid" id="projectsPreview" data-reveal style="--d:100ms">
+      <!-- ongoing projects, rendered by main.js -->
     </div>
+    <a href="projects.html" class="teaser-cta" data-i18n="projects.cta">See all projects</a>
   </div>
 </section>
 
-<!-- ============================= EXPLORE (team + projects) ============================= -->
-<section class="explore-section">
-  <div class="container explore-grid">
-    <div class="teaser-single" data-reveal style="--d:0ms">
+<!-- ============================= TEAM (faces from data/team.json) ============================= -->
+<section class="home-team">
+  <div class="container home-team-grid">
+    <div data-reveal>
       <span class="section-eyebrow" data-i18n="team.eyebrow">Who we are</span>
       <h2 class="section-title" data-i18n="team.title">The people behind the hub</h2>
       <p class="teaser-body" data-i18n="team.teaserBody">A small volunteer committee coordinates the hub day to day (projects, partnerships, communications, and the books), while every one of our Shapers leads work of their own.</p>
       <a href="team.html" class="teaser-cta" data-i18n="team.cta">Meet the full team</a>
     </div>
-    <div class="teaser-single" data-reveal style="--d:120ms">
-      <span class="section-eyebrow" data-i18n="projects.eyebrow">What we've driven</span>
-      <h2 class="section-title" data-i18n="projects.title">Projects, from idea to impact</h2>
-      <p class="teaser-body" data-i18n="projects.teaserBody">From neighbourhood orchards to post-flood rebuilding, our projects move from a Shaper's idea to something people can point to. Some are finished, some are running now, others start soon.</p>
-      <a href="projects.html" class="teaser-cta" data-i18n="projects.cta">See all projects</a>
-    </div>
+    <a href="team.html" class="face-stack" id="teamFaces" data-reveal style="--d:120ms" data-i18n-attr="aria-label:team.cta" aria-label="Meet the full team">
+      <!-- member photos, rendered by main.js -->
+    </a>
   </div>
 </section>
 
@@ -264,26 +258,50 @@
       </ul>
     </div>
   </div>
-</section>
-
-<!-- ============================= VISITING VALENCIA ============================= -->
-<section class="visit-section">
   <div class="container">
-    <div class="section-head" data-reveal>
-      <span class="section-eyebrow" data-i18n="visit.eyebrow">Visiting Valencia?</span>
-      <h2 class="section-title" data-i18n="visit.title">Our members have prepared a list of recommendations</h2>
-    </div>
-    <a href="https://maps.app.goo.gl/o17kVGESxQHPV6fr7" target="_blank" rel="noopener" class="teaser-cta" data-i18n="visit.cta">Open the map</a>
+    <a class="visit-card" href="https://maps.app.goo.gl/o17kVGESxQHPV6fr7" target="_blank" rel="noopener" data-reveal>
+      <span class="visit-card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></svg></span>
+      <span class="visit-card-copy">
+        <strong data-i18n="visit.eyebrow">Visiting Valencia?</strong>
+        <span data-i18n="visit.title">Our members have prepared a list of recommendations</span>
+      </span>
+      <span class="teaser-cta" data-i18n="visit.cta">Open the map</span>
+    </a>
   </div>
 </section>
 
 <!-- ============================= CTA BAND ============================= -->
 <section class="cta-band" id="join">
   <div class="dot-grid" aria-hidden="true"></div>
-  <div class="container" data-reveal>
-    <h2 data-i18n="ctaBand.title">Valencia needs more people who build.</h2>
-    <p data-i18n="ctaBand.body">If you're between 18 and 27 and want to turn your energy into projects that matter, the hub is looking for you.</p>
+  <div class="container">
+    <div data-reveal>
+      <h2 data-i18n="ctaBand.title">Valencia needs more people who build.</h2>
+      <p data-i18n="ctaBand.body">If you're between 18 and 27 and want to turn your energy into projects that matter, the hub is looking for you.</p>
+    </div>
+    <ol class="join-steps">
+      <li data-reveal style="--d:80ms">
+        <span class="join-step-num">01</span>
+        <h3 data-i18n="ctaBand.step1Title">Fill in the form</h3>
+        <p data-i18n="ctaBand.step1Body">Tell us who you are and what you would like to change in Valencia.</p>
+      </li>
+      <li data-reveal style="--d:200ms">
+        <span class="join-step-num">02</span>
+        <h3 data-i18n="ctaBand.step2Title">Meet the hub</h3>
+        <p data-i18n="ctaBand.step2Body">We get in touch to meet you and explain how the hub works.</p>
+      </li>
+      <li data-reveal style="--d:320ms">
+        <span class="join-step-num">03</span>
+        <h3 data-i18n="ctaBand.step3Title">Start building</h3>
+        <p data-i18n="ctaBand.step3Body">Join a project already running or bring your own idea to life.</p>
+      </li>
+    </ol>
     <a href="https://forms.gle/b4ucqoTshVWLpSaz5" target="_blank" rel="noopener" class="btn btn-ink" data-i18n="ctaBand.button">Join the hub</a>
+    <div class="join-social">
+      <span data-i18n="social.eyebrow">Follow the hub</span>
+      <a href="https://www.instagram.com/globalshapersvlc/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+      <a href="https://www.linkedin.com/company/global-shapers-valencia" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="7.5" y1="10" x2="7.5" y2="17"/><circle cx="7.5" cy="6.8" r="1"/><path d="M11.5 17v-4.2c0-1.6 1-2.6 2.4-2.6 1.3 0 2.1.9 2.1 2.6V17"/></svg></a>
+      <a href="https://www.globalshapers.org/hubs/valencia-hub" target="_blank" rel="noopener" aria-label="Global Shapers website"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 4 6 4 9s-1.5 6.3-4 9c-2.5-2.7-4-6-4-9s1.5-6.3 4-9Z"/></svg></a>
+    </div>
   </div>
 </section>
 
