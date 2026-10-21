@@ -94,7 +94,9 @@
     "filterUpcoming": "Upcoming",
     "impacted": "people impacted",
     "visit": "Visit project",
-    "runningNow": "Running now"
+    "runningNow": "Running now",
+    "startingSoon": "Starting soon",
+    "recentlyCompleted": "Recently completed"
   },
   "alumni": {
     "eyebrow": "Alumni",

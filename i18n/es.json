@@ -94,7 +94,9 @@
     "filterUpcoming": "Pr\u00f3ximos",
     "impacted": "personas impactadas",
     "visit": "Ver proyecto",
-    "runningNow": "En marcha ahora"
+    "runningNow": "En marcha ahora",
+    "startingSoon": "Empiezan pronto",
+    "recentlyCompleted": "Terminados recientemente"
   },
   "alumni": {
     "eyebrow": "Antiguos miembros",

@@ -214,15 +214,43 @@
     visible.forEach((project) => grid.appendChild(buildProjectCard(project, lang, dict)));
   }
 
-  // Homepage: only the projects running now.
+  // Homepage: the projects running now. With none running it falls back to
+  // upcoming, then completed ones, relabelling the row to match; with no
+  // data at all the row is hidden and only the "See all projects" link stays.
+  const PREVIEW_LIMIT = 4;
+  const PREVIEW_GROUPS = [
+    { status: 'ongoing', labelKey: 'projects.runningNow', live: true },
+    { status: 'upcoming', labelKey: 'projects.startingSoon', live: false },
+    { status: 'completed', labelKey: 'projects.recentlyCompleted', live: false },
+  ];
+
   function renderProjectsPreview() {
     const grid = document.getElementById('projectsPreview');
-    if (!grid) return;
+    const label = document.getElementById('projectsPreviewLabel');
+    if (!grid || !label) return;
     const lang = window.i18n.getLang();
     const dict = window.i18n.getDict();
     grid.innerHTML = '';
-    projectsData
-      .filter((p) => p.status === 'ongoing')
+
+    let group = null;
+    let projects = [];
+    for (const candidate of PREVIEW_GROUPS) {
+      projects = projectsData.filter((p) => p.status === candidate.status);
+      if (projects.length) {
+        group = candidate;
+        break;
+      }
+    }
+
+    label.hidden = !group;
+    if (!group) return;
+    const text = label.querySelector('[data-i18n]');
+    text.setAttribute('data-i18n', group.labelKey);
+    text.textContent = getPath(dict, group.labelKey);
+    label.classList.toggle('is-live', group.live);
+
+    projects
+      .slice(0, PREVIEW_LIMIT)
       .forEach((project) => grid.appendChild(buildProjectCard(project, lang, dict)));
   }
 
