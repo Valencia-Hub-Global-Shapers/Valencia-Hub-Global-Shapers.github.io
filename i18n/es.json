@@ -11,8 +11,15 @@
     "join": "\u00danete"
   },
   "hero": {
-    "eyebrow": "Global Shapers Community \u2014 Hub Valencia",
-    "headline": "Ideas locales. Impacto real en Valencia. Con el respaldo del Foro Econ\u00f3mico Mundial.",
+    "headline": "J\u00f3venes de Valencia que trabajan por la vivienda, la salud, nuestros mayores, los estudiantes, las mujeres y un aire m\u00e1s limpio. Con el respaldo del Foro Econ\u00f3mico Mundial.",
+    "headlineBefore": "J\u00f3venes de Valencia que trabajan por",
+    "headlineWord1": "la vivienda.",
+    "headlineWord2": "la salud.",
+    "headlineWord3": "nuestros mayores.",
+    "headlineWord4": "los estudiantes.",
+    "headlineWord5": "las mujeres.",
+    "headlineWord6": "un aire m\u00e1s limpio.",
+    "headlineAfter": "Con el respaldo del Foro Econ\u00f3mico Mundial.",
     "intro": "Somos un hub de voluntariado formado por j\u00f3venes que convierten los retos m\u00e1s urgentes de Valencia en proyectos que funcionan, conectados a una red de hubs que el Foro Econ\u00f3mico Mundial impulsa en m\u00e1s de 150 pa\u00edses.",
     "ctaProjects": "Ver nuestros proyectos",
     "ctaTeam": "Conoce al equipo"
@@ -32,7 +39,7 @@
     "eyebrow": "Qu\u00e9 es el hub",
     "title": "Un motor c\u00edvico impulsado por los propios j\u00f3venes de Valencia",
     "body1": "El Hub Valencia forma parte de la Global Shapers Community, una iniciativa del Foro Econ\u00f3mico Mundial que re\u00fane a personas de entre 18 y 27 a\u00f1os ya activas en sus ciudades. Cada miembro aporta su tiempo como voluntario, compaginando el hub con sus estudios o su trabajo.",
-    "body2": "Elegimos problemas locales \u2014vivienda, clima, movilidad, educaci\u00f3n\u2014 y dise\u00f1amos proyectos junto a las personas afectadas, apoy\u00e1ndonos en la formaci\u00f3n, la red y la visibilidad que ofrece la comunidad global.",
+    "body2": "Elegimos problemas locales (vivienda, clima, movilidad, educaci\u00f3n) y dise\u00f1amos proyectos junto a las personas afectadas, apoy\u00e1ndonos en la formaci\u00f3n, la red y la visibilidad que ofrece la comunidad global.",
     "point1Title": "Voluntariado",
     "point1Body": "Nadie cobra un sueldo. Cada hora sale del tiempo libre de sus miembros.",
     "point2Title": "Liderado por j\u00f3venes",
@@ -71,7 +78,7 @@
   "team": {
     "eyebrow": "Qui\u00e9nes somos",
     "title": "Las personas detr\u00e1s del hub",
-    "teaserBody": "Un peque\u00f1o comit\u00e9 de voluntarios coordina el hub en el d\u00eda a d\u00eda \u2014proyectos, alianzas, comunicaci\u00f3n y las cuentas\u2014 mientras cada Shaper lidera su propio trabajo.",
+    "teaserBody": "Un peque\u00f1o comit\u00e9 de voluntarios coordina el hub en el d\u00eda a d\u00eda (proyectos, alianzas, comunicaci\u00f3n y las cuentas) mientras cada Shaper lidera su propio trabajo.",
     "cta": "Conoce al equipo completo",
     "photoCaption": "El equipo del hub Valencia, por la ciudad",
     "modalCloseLabel": "Cerrar"

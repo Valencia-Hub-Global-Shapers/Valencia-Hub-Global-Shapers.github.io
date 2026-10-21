@@ -11,9 +11,16 @@
     "join": "Join Us"
   },
   "hero": {
-    "eyebrow": "Global Shapers Community \u2014 Valencia Hub",
-    "headline": "Local ideas. Real impact on Valencia. Backed by the World Economic Forum.",
-    "intro": "We are a volunteer-run hub of young people turning Valencia's most pressing challenges into projects that work \u2014 connected to a network of hubs the World Economic Forum supports in over 150 countries.",
+    "headline": "Young people in Valencia working for better housing, better health, our elders, students, women and cleaner air. Backed by the World Economic Forum.",
+    "headlineBefore": "Young people in Valencia working for",
+    "headlineWord1": "better housing.",
+    "headlineWord2": "better health.",
+    "headlineWord3": "our elders.",
+    "headlineWord4": "students.",
+    "headlineWord5": "women.",
+    "headlineWord6": "cleaner air.",
+    "headlineAfter": "Backed by the World Economic Forum.",
+    "intro": "We are a volunteer-run hub of young people turning Valencia's most pressing challenges into projects that work, connected to a network of hubs the World Economic Forum supports in over 150 countries.",
     "ctaProjects": "View our projects",
     "ctaTeam": "Meet the team"
   },
@@ -32,7 +39,7 @@
     "eyebrow": "What the hub is",
     "title": "A civic engine run by Valencia's own young people",
     "body1": "The Valencia Hub is part of the Global Shapers Community, an initiative of the World Economic Forum bringing together people aged 18\u201327 who are already active in their cities. Every member volunteers their time alongside their studies or job.",
-    "body2": "We choose local problems \u2014 housing, climate, mobility, education \u2014 and design projects with the people affected by them, using the training, network, and visibility the global community provides.",
+    "body2": "We choose local problems (housing, climate, mobility, education) and design projects with the people affected by them, using the training, network, and visibility the global community provides.",
     "point1Title": "Volunteer-run",
     "point1Body": "No one draws a salary. Every hour comes from members' own time.",
     "point2Title": "Youth-led",
@@ -45,7 +52,7 @@
   "wef": {
     "eyebrow": "Our connection to the World Economic Forum",
     "title": "One thread, from Geneva to your street",
-    "body": "The Valencia Hub is an officially recognised chapter of the Global Shapers Community, the World Economic Forum's youth initiative. That affiliation gives us training, funding opportunities, and a seat at conversations that shape global policy \u2014 which we bring straight back to Valencia.",
+    "body": "The Valencia Hub is an officially recognised chapter of the Global Shapers Community, the World Economic Forum's youth initiative. That affiliation gives us training, funding opportunities, and a seat at conversations that shape global policy, which we bring straight back to Valencia.",
     "node1": "World Economic Forum",
     "node1Sub": "Sets the global agenda and convenes leaders in Davos and beyond",
     "node2": "Global Shapers Community",
@@ -71,7 +78,7 @@
   "team": {
     "eyebrow": "Who we are",
     "title": "The people behind the hub",
-    "teaserBody": "A small volunteer committee coordinates the hub day to day \u2014 projects, partnerships, communications, and the books \u2014 while every one of our Shapers leads work of their own.",
+    "teaserBody": "A small volunteer committee coordinates the hub day to day (projects, partnerships, communications, and the books), while every one of our Shapers leads work of their own.",
     "cta": "Meet the full team",
     "photoCaption": "The Valencia hub team, out in the city",
     "modalCloseLabel": "Close"
@@ -109,7 +116,7 @@
   },
   "notice": {
     "tag": "Under development",
-    "underDevelopment": "This page is still being built — the entries shown below are placeholders while we add the real content."
+    "underDevelopment": "This page is still being built: the entries shown below are placeholders while we add the real content."
   },
   "langSwitch": {
     "label": "Language"

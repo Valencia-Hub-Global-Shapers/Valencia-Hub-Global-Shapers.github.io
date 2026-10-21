@@ -1,9 +1,10 @@
 /* =====================================================================
-   Global Shapers Valencia Hub — stylesheet
+   Global Shapers Valencia Hub: stylesheet
 
    Civic-editorial system:
    · Warm paper ground, flat brand blue for dark sections, ONE burnt-orange
-     accent used sparingly. No gradients.
+     accent used sparingly. No colour gradients (the faint dot texture in
+     the hero and CTA band is the one exception).
    · Hairline rules do the structural work; shadow is reserved for the modal.
    · Newsreader (serif) for display, Work Sans for text and labels.
    · Sections carry a running 01 / 02 index in place of decorative eyebrows.
@@ -19,11 +20,11 @@
   --line-strong: #d0c7b2;
   --muted: #6b6559;
 
-  /* Brand — sampled from the official Global Shapers Valencia mark */
+  /* Brand: sampled from the official Global Shapers Valencia mark */
   --blue: #054985;
   --blue-deep: #04365f;
   --blue-bright: #0a5fa8;
-  --accent: #d6521d;          /* burnt Valencia orange — used sparingly */
+  --accent: #d6521d;          /* burnt Valencia orange, used sparingly */
   --accent-deep: #b4400e;
   --gold: #e3b23c;
 
@@ -84,6 +85,17 @@ p { margin: 0; }
 .container {
   width: min(100% - 44px, var(--container));
   margin-inline: auto;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* ---------- Section scaffolding ---------- */
@@ -286,6 +298,15 @@ section { padding-block: var(--section-pad); position: relative; }
   max-width: 16ch;
   text-wrap: balance;
 }
+.hero h1 > span:not(.sr-only):not(.rotator) { display: block; }
+.hero h1 .hero-h1-after {
+  margin-top: 0.3em;
+  font-size: 0.56em;
+  line-height: 1.2;
+  color: var(--on-blue);
+}
+.hero .container,
+.hero-figure { position: relative; }
 .hero-intro {
   margin-top: 26px;
   font-size: 1.12rem;
@@ -410,7 +431,7 @@ section { padding-block: var(--section-pad); position: relative; }
 }
 
 /* ===================================================================
-   STATS  — editorial figure row
+   STATS: editorial figure row
    =================================================================== */
 .stats-section { background: var(--paper); padding-top: clamp(32px, 4vw, 46px); padding-bottom: clamp(40px, 5vw, 60px); }
 .stats-grid {
@@ -481,7 +502,7 @@ section { padding-block: var(--section-pad); position: relative; }
 .pillar-card p { margin-top: 8px; font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
 
 /* ===================================================================
-   WEF CONNECTION  — stepped index on flat blue
+   WEF CONNECTION: stepped index on flat blue
    =================================================================== */
 .wef-section { background: var(--blue); color: var(--paper); }
 .wef-section .container {
@@ -504,11 +525,32 @@ section { padding-block: var(--section-pad); position: relative; }
   grid-template-columns: repeat(4, 1fr);
 }
 .chain-node {
+  position: relative;
   padding: 24px 22px 26px 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+/* The "thread": a hairline that draws across the nodes as they reveal */
+.chain-node::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: var(--line-on-blue);
+  transform-origin: left;
+  transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms);
+}
+.chain-node::after {
+  content: '';
+  position: absolute;
+  top: -3px; left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--on-blue-dim);
+}
+.chain-node:last-child::after { background: var(--gold); }
 .chain-num {
   font-family: var(--font-display);
   font-size: 1.9rem;
@@ -895,6 +937,12 @@ section { padding-block: var(--section-pad); position: relative; }
   color: #fff;
   text-align: center;
   padding-block: clamp(58px, 7.5vw, 92px);
+  overflow: hidden;
+}
+.cta-band .container { position: relative; }
+.cta-band .dot-grid {
+  -webkit-mask-image: radial-gradient(ellipse 60% 90% at 50% 50%, #000 10%, transparent 70%);
+  mask-image: radial-gradient(ellipse 60% 90% at 50% 50%, #000 10%, transparent 70%);
 }
 .cta-band h2 {
   font-family: var(--font-display);
@@ -1104,6 +1152,7 @@ section { padding-block: var(--section-pad); position: relative; }
   .footer-bottom { justify-content: flex-start; }
 }
 @media (max-width: 400px) {
+  .hero h1 { font-size: 2.1rem; }
   .stats-grid { grid-template-columns: 1fr; }
   .stat-item { border-left: none; padding-left: 0; }
   .stat-item:nth-child(n+2) { margin-top: 24px; }
@@ -1130,4 +1179,94 @@ section { padding-block: var(--section-pad); position: relative; }
   padding: 12px 16px;
   text-align: center;
   justify-content: center;
+}
+
+/* ===================================================================
+   MOTION
+   `.rise` plays on load (hero), `[data-reveal]` when scrolled into view
+   (main.js adds `data-visible`). Content is hidden only once the inline
+   script in <head> has added `.js`, so nothing disappears without it.
+   =================================================================== */
+.dot-grid {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.14) 1px, transparent 1.2px);
+  background-size: 22px 22px;
+}
+.hero .dot-grid {
+  -webkit-mask-image: radial-gradient(ellipse 60% 80% at 80% 40%, #000 15%, transparent 72%);
+  mask-image: radial-gradient(ellipse 60% 80% at 80% 40%, #000 15%, transparent 72%);
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+.rise { animation: rise 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms) backwards; }
+
+[data-reveal] {
+  transition:
+    opacity 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms),
+    transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms);
+}
+.js [data-reveal]:not([data-visible]) { opacity: 0; transform: translateY(22px); }
+.js .chain-node[data-reveal]:not([data-visible])::before { transform: scaleX(0); }
+
+/* Hero headline: six project themes take turns, each with a hand-drawn
+   underline. 15.6 s loop, 2.6 s per word (delays set inline in index.html). */
+.rotator {
+  display: grid;
+  white-space: nowrap;
+  padding-bottom: 0.12em;
+}
+.rotator-word {
+  grid-area: 1 / 1;
+  position: relative;
+  width: max-content;
+  font-style: italic;
+  color: var(--gold);
+  opacity: 0;
+  animation: rotator 15.6s cubic-bezier(0.2, 0.7, 0.2, 1) infinite backwards;
+}
+@keyframes rotator {
+  0% { opacity: 0; transform: translateY(0.4em); filter: blur(6px); }
+  2.7%, 14.7% { opacity: 1; transform: none; filter: blur(0); }
+  16.67%, 100% { opacity: 0; transform: translateY(-0.4em); filter: blur(6px); }
+}
+.squiggle {
+  position: absolute;
+  left: 0; right: 0;
+  bottom: -0.1em;
+  width: 100%;
+  height: 0.2em;
+  overflow: visible;
+}
+.squiggle path {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: squiggle 15.6s cubic-bezier(0.6, 0, 0.3, 1) infinite backwards;
+}
+@keyframes squiggle {
+  0%, 2% { stroke-dashoffset: 1; }
+  7.3%, 100% { stroke-dashoffset: 0; }
+}
+
+/* Slow float on the hero logo */
+.float { animation: float 6s ease-in-out infinite; }
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise, .rotator-word, .squiggle path, .float { animation: none !important; }
+  .js [data-reveal]:not([data-visible]) { opacity: 1; transform: none; }
+  .js .chain-node[data-reveal]:not([data-visible])::before { transform: none; }
+  .rotator-word:first-child { opacity: 1; }
+  .squiggle path { stroke-dashoffset: 0; }
 }

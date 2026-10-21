@@ -1,4 +1,4 @@
-# Global Shapers Valencia Hub — website
+# Global Shapers Valencia Hub website
 
 A static, framework-free site (HTML/CSS/vanilla JS) for the Global Shapers
 Valencia Hub: what it is, its official link to the World Economic Forum,
@@ -37,7 +37,7 @@ exactly** `Valencia-Hub-Global-Shapers.github.io`. Once it is:
 
 All asset paths in the HTML are relative, so the site also works
 unchanged as a project site (`…github.io/<repo>/`) if the repo is ever
-renamed. No `.nojekyll` is needed — no folders start with an underscore.
+renamed. No `.nojekyll` is needed: no folders start with an underscore.
 
 ## Structure
 
@@ -66,7 +66,7 @@ the modal / filter on the page that actually has those elements, so
 nothing extra loads on the homepage.
 
 Nav and footer markup is duplicated across the three HTML files (no
-build step, no templating) — if you add or rename a nav link, update it
+build step, no templating), so if you add or rename a nav link, update it
 in all three.
 
 ## Brand colors
@@ -76,19 +76,19 @@ warmth. Defined as CSS variables at the top of `assets/css/style.css`:
 
 | Token | Hex | Use |
 |---|---|---|
-| `--ink` | `#232222` | Charcoal — dark sections, body text |
-| `--blue-deep` | `#1c30a5` | Primary brand blue — buttons, links, stat numbers |
-| `--blue-mid` | `#054b96` | Secondary blue — gradients, accents |
-| `--blue-bright` | `#2c41e1` | Vivid blue — hover states, "ongoing" badge |
-| `--orange` | `#f0632a` | Valencia accent — primary CTA, "you are here" |
-| `--gold` | `#f8e074` | Brand yellow — small highlights, "upcoming" badge |
+| `--ink` | `#232222` | Charcoal: dark sections, body text |
+| `--blue-deep` | `#1c30a5` | Primary brand blue: buttons, links, stat numbers |
+| `--blue-mid` | `#054b96` | Secondary blue: gradients, accents |
+| `--blue-bright` | `#2c41e1` | Vivid blue: hover states, "ongoing" badge |
+| `--orange` | `#f0632a` | Valencia accent: primary CTA, "you are here" |
+| `--gold` | `#f8e074` | Brand yellow: small highlights, "upcoming" badge |
 
 ## Editing content
 
 - **Team**: edit `data/team.json`. `role` and `bio` are per-language
   objects (`es` / `en` / `val`); `name` and `photo` are shared across
   languages. Add a photo at the referenced path in `public/team/`, or
-  leave it — the card falls back to an initials avatar automatically.
+  leave it: the card falls back to an initials avatar automatically.
 - **Projects**: edit `data/projects.json`. `name` and `description` are
   per-language; `status` must be `"completed"`, `"ongoing"`, or
   `"upcoming"` to match the filter and badge colour. `peopleImpacted` is
@@ -97,7 +97,7 @@ warmth. Defined as CSS variables at the top of `assets/css/style.css`:
   etc.): edit the matching key in `i18n/es.json`, `i18n/en.json`, and
   `i18n/val.json`. Keep the same key structure across all three files.
 - **Stats band numbers**: the four counters live in `index.html` as
-  `data-count="42"` attributes on `.stat-number` elements — update those
+  `data-count="42"` attributes on `.stat-number` elements: update those
   directly (the founding year is marked `data-no-anim` so it doesn't
   count up).
 
@@ -112,7 +112,7 @@ idiomatic lines (hero headline, CTA band).
 ## On the "taste-skill" repo
 
 I looked at `github.com/Leonxlnx/taste-skill` before building this. I
-can't actually install it — it ships as a `npx skills add` package, and
+can't actually install it: it ships as a `npx skills add` package, and
 this environment has no outbound network access for `npm`/`git`, nor
 write access to add new permanent skills. What I did instead was read
 what its default skill optimises for (deliberate layout asymmetry, a

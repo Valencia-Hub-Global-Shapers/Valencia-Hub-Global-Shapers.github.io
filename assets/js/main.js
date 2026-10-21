@@ -2,7 +2,8 @@
  * main.js
  * Handles: loading team.json / projects.json, rendering language-aware
  * cards, the team bio modal, the project status filter, the ticker,
- * mobile nav, sticky-nav shadow, and the animated stat counters.
+ * mobile nav, sticky-nav shadow, the animated stat counters, and the
+ * scroll reveals.
  */
 (function () {
   'use strict';
@@ -320,6 +321,29 @@
     items.forEach((el) => observer.observe(el));
   }
 
+  // ---------- scroll reveals ----------
+  // Marks every [data-reveal] element with data-visible once it scrolls
+  // into view, which plays its entrance transition (see MOTION in style.css).
+  function initReveals() {
+    const items = document.querySelectorAll('[data-reveal]');
+    if (!items.length) return;
+    if (!('IntersectionObserver' in window)) {
+      items.forEach((el) => el.setAttribute('data-visible', ''));
+      return;
+    }
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.setAttribute('data-visible', '');
+          observer.unobserve(entry.target);
+        });
+      },
+      { rootMargin: '0px 0px -8% 0px', threshold: 0.12 }
+    );
+    items.forEach((el) => observer.observe(el));
+  }
+
   // ---------- nav ----------
   function initNav() {
     const nav = document.getElementById('siteNav');
@@ -348,6 +372,7 @@
   initFilters();
   initNav();
   initStatCounters();
+  initReveals();
 
   loadData().then(() => {
     renderAlumni();
