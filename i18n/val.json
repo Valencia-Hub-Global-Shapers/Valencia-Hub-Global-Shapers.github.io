@@ -93,7 +93,8 @@
     "filterOngoing": "En marxa",
     "filterUpcoming": "Pr\u00f2xims",
     "impacted": "persones impactades",
-    "visit": "Veure projecte"
+    "visit": "Veure projecte",
+    "runningNow": "En marxa ara"
   },
   "alumni": {
     "eyebrow": "Antics membres",
@@ -103,7 +104,13 @@
   "ctaBand": {
     "title": "Val\u00e8ncia necessita m\u00e9s gent que construïsca.",
     "body": "Si tens entre 18 i 27 anys i vols convertir la teua energia en projectes que importen, el hub t'est\u00e0 buscant.",
-    "button": "Uneix-te al hub"
+    "button": "Uneix-te al hub",
+    "step1Title": "Ompli el formulari",
+    "step1Body": "Conta'ns qui eres i qu\u00e8 t'agradaria canviar a Val\u00e8ncia.",
+    "step2Title": "Coneix el hub",
+    "step2Body": "Ens posem en contacte per a con\u00e9ixer-te i explicar-te com funciona el hub.",
+    "step3Title": "Comen\u00e7a a construir",
+    "step3Body": "Uneix-te a un projecte en marxa o fes realitat la teua pr\u00f2pia idea."
   },
   "footer": {
     "about": "El Hub Val\u00e8ncia \u00e9s un cap\u00edtol de voluntariat de la Global Shapers Community, una iniciativa del F\u00f2rum Econ\u00f2mic Mundial, que construeix projectes locals amb suport global.",

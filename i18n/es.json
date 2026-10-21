@@ -93,7 +93,8 @@
     "filterOngoing": "En marcha",
     "filterUpcoming": "Pr\u00f3ximos",
     "impacted": "personas impactadas",
-    "visit": "Ver proyecto"
+    "visit": "Ver proyecto",
+    "runningNow": "En marcha ahora"
   },
   "alumni": {
     "eyebrow": "Antiguos miembros",
@@ -103,7 +104,13 @@
   "ctaBand": {
     "title": "Valencia necesita m\u00e1s gente que construya.",
     "body": "Si tienes entre 18 y 27 a\u00f1os y quieres convertir tu energ\u00eda en proyectos que importan, el hub te est\u00e1 buscando.",
-    "button": "\u00danete al hub"
+    "button": "\u00danete al hub",
+    "step1Title": "Rellena el formulario",
+    "step1Body": "Cu\u00e9ntanos qui\u00e9n eres y qu\u00e9 te gustar\u00eda cambiar en Valencia.",
+    "step2Title": "Conoce el hub",
+    "step2Body": "Nos ponemos en contacto para conocerte y explicarte c\u00f3mo funciona el hub.",
+    "step3Title": "Empieza a construir",
+    "step3Body": "S\u00famate a un proyecto en marcha o haz realidad tu propia idea."
   },
   "footer": {
     "about": "El Hub Valencia es un cap\u00edtulo de voluntariado de la Global Shapers Community, una iniciativa del Foro Econ\u00f3mico Mundial, que construye proyectos locales con respaldo global.",

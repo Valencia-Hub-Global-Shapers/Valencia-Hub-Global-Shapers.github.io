@@ -93,7 +93,8 @@
     "filterOngoing": "Ongoing",
     "filterUpcoming": "Upcoming",
     "impacted": "people impacted",
-    "visit": "Visit project"
+    "visit": "Visit project",
+    "runningNow": "Running now"
   },
   "alumni": {
     "eyebrow": "Alumni",
@@ -103,7 +104,13 @@
   "ctaBand": {
     "title": "Valencia needs more people who build.",
     "body": "If you're between 18 and 27 and want to turn your energy into projects that matter, the hub is looking for you.",
-    "button": "Join the hub"
+    "button": "Join the hub",
+    "step1Title": "Fill in the form",
+    "step1Body": "Tell us who you are and what you would like to change in Valencia.",
+    "step2Title": "Meet the hub",
+    "step2Body": "We get in touch to meet you and explain how the hub works.",
+    "step3Title": "Start building",
+    "step3Body": "Join a project already running or bring your own idea to life."
   },
   "footer": {
     "about": "The Valencia Hub is a volunteer-run chapter of the Global Shapers Community, an initiative of the World Economic Forum, building local projects with global backing.",

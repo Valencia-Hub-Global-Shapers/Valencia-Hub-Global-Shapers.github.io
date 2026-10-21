@@ -2,8 +2,8 @@
  * main.js
  * Handles: loading team.json / projects.json, rendering language-aware
  * cards, the team bio modal, the project status filter, the ticker,
- * mobile nav, sticky-nav shadow, the animated stat counters, and the
- * scroll reveals.
+ * mobile nav, sticky-nav shadow, the animated stat counters, the scroll
+ * reveals, and the homepage previews of ongoing projects and team faces.
  */
 (function () {
   'use strict';
@@ -57,18 +57,29 @@
   }
 
   // ---------- data loading ----------
-  // Only fetches what the current page actually renders, so the homepage
-  // (which now just links out to team.html / projects.html) doesn't pull
-  // in data it no longer displays.
+  // Only fetches what the current page actually renders. A failed fetch
+  // leaves that list empty, so the rest of the page still works and the
+  // stat counters fall back to the numbers written in the HTML.
   async function loadData() {
-    const needsTeam = !!document.getElementById('teamGrid');
-    const needsProjects = !!document.getElementById('projectsGrid');
-    const needsAlumni = !!document.getElementById('alumniList');
+    const needs = (ids, source) =>
+      ids.some((id) => document.getElementById(id)) ||
+      !!document.querySelector(`[data-count-from="${source}"]`);
+    const load = (url, assign) =>
+      fetch(url)
+        .then((r) => r.json())
+        .then(assign)
+        .catch(() => {});
 
     const jobs = [];
-    if (needsTeam) jobs.push(fetch('data/team.json').then((r) => r.json()).then((d) => (teamData = d)));
-    if (needsProjects) jobs.push(fetch('data/projects.json').then((r) => r.json()).then((d) => (projectsData = d)));
-    if (needsAlumni) jobs.push(fetch('data/alumni.json').then((r) => r.json()).then((d) => (alumniData = d)));
+    if (needs(['teamGrid', 'teamFaces'], 'team')) {
+      jobs.push(load('data/team.json', (d) => (teamData = d)));
+    }
+    if (needs(['projectsGrid', 'projectsPreview'], 'projects')) {
+      jobs.push(load('data/projects.json', (d) => (projectsData = d)));
+    }
+    if (document.getElementById('alumniList')) {
+      jobs.push(load('data/alumni.json', (d) => (alumniData = d)));
+    }
     await Promise.all(jobs);
   }
 
@@ -179,6 +190,12 @@
   }
 
   // ---------- projects ----------
+  const STATUS_LABEL_KEY = {
+    completed: 'projects.filterCompleted',
+    ongoing: 'projects.filterOngoing',
+    upcoming: 'projects.filterUpcoming',
+  };
+
   function renderProjects() {
     const grid = document.getElementById('projectsGrid');
     if (!grid) return;
@@ -194,51 +211,59 @@
         : projectsData.filter((p) => p.status === activeFilter)
     ).sort((a, b) => (statusOrder[a.status] ?? 3) - (statusOrder[b.status] ?? 3));
 
-    const statusLabelKey = {
-      completed: 'projects.filterCompleted',
-      ongoing: 'projects.filterOngoing',
-      upcoming: 'projects.filterUpcoming',
-    };
+    visible.forEach((project) => grid.appendChild(buildProjectCard(project, lang, dict)));
+  }
 
-    visible.forEach((project) => {
-      const card = document.createElement('article');
-      card.className = 'project-card';
+  // Homepage: only the projects running now.
+  function renderProjectsPreview() {
+    const grid = document.getElementById('projectsPreview');
+    if (!grid) return;
+    const lang = window.i18n.getLang();
+    const dict = window.i18n.getDict();
+    grid.innerHTML = '';
+    projectsData
+      .filter((p) => p.status === 'ongoing')
+      .forEach((project) => grid.appendChild(buildProjectCard(project, lang, dict)));
+  }
 
-      const statusLabel = statusLabelKey[project.status]
-        ? getPath(dict, statusLabelKey[project.status])
-        : project.status;
+  function buildProjectCard(project, lang, dict) {
+    const card = document.createElement('article');
+    card.className = 'project-card';
 
-      const hasImpact = project.peopleImpacted !== null && project.peopleImpacted !== undefined;
-      const hasLink = isHttpUrl(project.url);
-      const impactHtml = hasImpact
-        ? `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg>
-            <span>${escapeHtml(formatImpact(project.peopleImpacted, lang))} ${escapeHtml(getPath(dict, 'projects.impacted'))}</span>`
-        : '';
-      const footerHtml = hasImpact || hasLink
-        ? `<div class="project-impact">${impactHtml}</div>`
-        : '';
+    const statusLabel = STATUS_LABEL_KEY[project.status]
+      ? getPath(dict, STATUS_LABEL_KEY[project.status])
+      : project.status;
 
-      card.innerHTML = `
-        <div class="project-body">
-          <span class="status-badge ${project.status}">${escapeHtml(statusLabel)}</span>
-          <h3>${escapeHtml(localized(project.name, lang))}</h3>
-          <p class="project-desc">${escapeHtml(localized(project.description, lang))}</p>
-          ${footerHtml}
-        </div>
-      `;
+    const hasImpact = project.peopleImpacted !== null && project.peopleImpacted !== undefined;
+    const hasLink = isHttpUrl(project.url);
+    const impactHtml = hasImpact
+      ? `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4.5 5-6 8-6s6.5 1.5 8 6"/></svg>
+          <span>${escapeHtml(formatImpact(project.peopleImpacted, lang))} ${escapeHtml(getPath(dict, 'projects.impacted'))}</span>`
+      : '';
+    const footerHtml = hasImpact || hasLink
+      ? `<div class="project-impact">${impactHtml}</div>`
+      : '';
 
-      if (hasLink) {
-        const link = document.createElement('a');
-        link.className = 'project-link';
-        link.href = project.url;
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-        link.textContent = getPath(dict, 'projects.visit');
-        card.querySelector('.project-impact').appendChild(link);
-      }
+    card.innerHTML = `
+      <div class="project-body">
+        <span class="status-badge ${project.status}">${escapeHtml(statusLabel)}</span>
+        <h3>${escapeHtml(localized(project.name, lang))}</h3>
+        <p class="project-desc">${escapeHtml(localized(project.description, lang))}</p>
+        ${footerHtml}
+      </div>
+    `;
 
-      grid.appendChild(card);
-    });
+    if (hasLink) {
+      const link = document.createElement('a');
+      link.className = 'project-link';
+      link.href = project.url;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.textContent = getPath(dict, 'projects.visit');
+      card.querySelector('.project-impact').appendChild(link);
+    }
+
+    return card;
   }
 
   function isHttpUrl(value) {
@@ -269,6 +294,28 @@
     });
   }
 
+  // ---------- team faces (homepage) ----------
+  const MAX_FACES = 7;
+
+  function renderTeamFaces() {
+    const stack = document.getElementById('teamFaces');
+    if (!stack || !teamData.length) return;
+    stack.innerHTML = '';
+    teamData.slice(0, MAX_FACES).forEach((member) => {
+      const face = document.createElement('span');
+      face.className = 'face';
+      setPhoto(face, member.photo, member.name, member.photoPosition);
+      stack.appendChild(face);
+    });
+    const rest = teamData.length - MAX_FACES;
+    if (rest > 0) {
+      const more = document.createElement('span');
+      more.className = 'face face-more';
+      more.textContent = `+${rest}`;
+      stack.appendChild(more);
+    }
+  }
+
   // ---------- ticker ----------
   function renderTicker() {
     const track = document.getElementById('tickerTrack');
@@ -281,9 +328,17 @@
   }
 
   // ---------- stat counters ----------
+  // Counters marked data-count-from="team" / "projects" show the length of
+  // that data file, so they never drift from the Team and Projects pages.
   function initStatCounters() {
     const items = document.querySelectorAll('.stat-number[data-count]');
     if (!items.length) return;
+
+    const sources = { team: teamData, projects: projectsData };
+    items.forEach((el) => {
+      const data = sources[el.getAttribute('data-count-from')];
+      if (data && data.length) el.setAttribute('data-count', data.length);
+    });
 
     const animate = (el) => {
       if (el.getAttribute('data-no-anim') === 'true') return;
@@ -371,23 +426,26 @@
   initModal();
   initFilters();
   initNav();
-  initStatCounters();
   initReveals();
 
   loadData().then(() => {
     renderAlumni();
+    renderTeamFaces();
+    initStatCounters();
 
     // First paint waits for i18n's initial languagechange event so team/
     // project copy renders in the right language from the start.
     window.addEventListener('languagechange', () => {
       renderTeam();
       renderProjects();
+      renderProjectsPreview();
       renderTicker();
     });
     // In case languagechange already fired before data finished loading.
     if (window.i18n.getDict()) {
       renderTeam();
       renderProjects();
+      renderProjectsPreview();
       renderTicker();
     }
   });

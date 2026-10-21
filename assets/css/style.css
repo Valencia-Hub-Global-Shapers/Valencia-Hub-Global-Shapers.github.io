@@ -404,6 +404,10 @@ section { padding-block: var(--section-pad); position: relative; }
   padding-block: 15px;
 }
 .ticker-track {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent);
+}
+.ticker-track {
   display: flex;
   width: max-content;
   animation: ticker 48s linear infinite;
@@ -483,7 +487,9 @@ section { padding-block: var(--section-pad); position: relative; }
 .pillar-card {
   border-top: 1px solid var(--line-strong);
   padding: 22px 0 24px;
+  transition: border-color 0.2s ease;
 }
+.pillar-card:hover { border-top-color: var(--accent); }
 .pillar-icon {
   width: 24px;
   height: 24px;
@@ -568,34 +574,6 @@ section { padding-block: var(--section-pad); position: relative; }
 .chain-node p { font-size: 0.86rem; color: var(--on-blue); line-height: 1.6; max-width: 26ch; }
 
 /* ===================================================================
-   SOCIAL
-   =================================================================== */
-.social-section { background: var(--paper); padding-block: clamp(40px, 4.5vw, 58px); }
-.social-section .container {
-  display: flex;
-  align-items: center;
-  gap: clamp(24px, 5vw, 56px);
-  flex-wrap: wrap;
-}
-.social-section .section-head { margin-bottom: 0; }
-.social-section .section-head .section-title { max-width: 24ch; }
-.social-row { display: flex; gap: 12px; }
-.social-link {
-  width: 46px;
-  height: 46px;
-  border-radius: var(--r);
-  background: var(--paper);
-  border: 1px solid var(--line-strong);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--ink);
-  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-}
-.social-link svg { width: 19px; height: 19px; }
-.social-link:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
-
-/* ===================================================================
    PARTNERS
    =================================================================== */
 .partners-section {
@@ -644,20 +622,6 @@ section { padding-block: var(--section-pad); position: relative; }
   .partners-marquee { overflow-x: auto; }
   .partners-list[aria-hidden="true"] { display: none; }
 }
-
-/* ===================================================================
-   VISITING VALENCIA
-   =================================================================== */
-.visit-section { background: var(--paper-2); padding-block: clamp(40px, 4.5vw, 58px); }
-.visit-section .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: clamp(24px, 5vw, 56px);
-  flex-wrap: wrap;
-}
-.visit-section .section-head { margin-bottom: 0; }
-.visit-section .section-head .section-title { max-width: 30ch; }
 
 /* ===================================================================
    TEAM
@@ -930,6 +894,140 @@ section { padding-block: var(--section-pad); position: relative; }
 .project-link:hover { color: var(--accent); }
 
 /* ===================================================================
+   HOMEPAGE PROJECTS  (ongoing projects from data/projects.json)
+   =================================================================== */
+.home-projects { background: var(--paper); }
+.home-projects-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  column-gap: clamp(32px, 6vw, 72px);
+  align-items: end;
+}
+.home-projects-head .section-title { margin-top: 18px; }
+.home-projects-head .teaser-body { margin-top: 0; max-width: 52ch; }
+.home-projects-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: clamp(36px, 5vw, 52px) 0 18px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--blue);
+}
+.live-pip {
+  position: relative;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+.live-pip::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--blue);
+  animation: live-pip 2.2s ease-out infinite;
+}
+@keyframes live-pip {
+  from { opacity: 0.6; transform: scale(1); }
+  to { opacity: 0; transform: scale(3); }
+}
+.home-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+.home-projects-grid:empty { display: none; }
+.home-projects-grid p.project-desc {
+  flex: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  line-clamp: 6;
+  overflow: hidden;
+}
+.home-projects-grid .project-impact { margin-top: auto; }
+.home-projects .teaser-cta { margin-top: 28px; }
+
+/* ===================================================================
+   HOMEPAGE TEAM  (faces from data/team.json)
+   =================================================================== */
+.home-team { background: var(--paper-2); }
+.home-team-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(32px, 6vw, 72px);
+  align-items: center;
+}
+.home-team .section-title { margin-top: 18px; }
+.face-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-left: 16px;
+}
+.face-stack:empty { display: none; }
+.face {
+  width: 76px;
+  height: 76px;
+  margin-left: -16px;
+  border-radius: 50%;
+  border: 3px solid var(--paper-2);
+  background: var(--media);
+  color: var(--blue);
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.face img { width: 100%; height: 100%; object-fit: cover; }
+.face-more {
+  background: var(--blue);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.face-stack:hover .face { transform: translateX(-4px); }
+.face-stack:hover .face:nth-child(even) { transform: translateY(-6px) translateX(-4px); }
+
+/* Visiting Valencia: compact card under the partners carousel */
+.visit-card {
+  margin-top: clamp(36px, 5vw, 52px);
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 18px 22px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.visit-card:hover { border-color: var(--blue); background: #fff; }
+.visit-card-icon {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--paper-2);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.visit-card-icon svg { width: 21px; height: 21px; }
+.visit-card-copy { flex: 1; display: flex; flex-direction: column; gap: 2px; }
+.visit-card-copy strong { color: var(--ink); font-weight: 600; }
+.visit-card-copy span { color: var(--muted); font-size: 0.92rem; }
+.visit-card .teaser-cta { margin-top: 0; white-space: nowrap; }
+.visit-card:hover .teaser-cta { color: var(--accent); }
+
+/* ===================================================================
    CTA BAND
    =================================================================== */
 .cta-band {
@@ -962,7 +1060,68 @@ section { padding-block: var(--section-pad); position: relative; }
   font-size: 1.02rem;
   line-height: 1.65;
 }
-.cta-band .btn { margin-top: 30px; }
+.cta-band .btn { margin-top: 36px; }
+
+/* How joining works: three numbered steps */
+.join-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 920px;
+  margin: clamp(36px, 5vw, 52px) auto 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.join-steps li {
+  border-top: 1px solid var(--line-on-blue);
+  padding-top: 18px;
+}
+.join-step-num {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--gold);
+}
+.join-steps h3 {
+  margin-top: 12px;
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: #fff;
+}
+.cta-band .join-steps p {
+  margin: 6px 0 0;
+  max-width: none;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.join-social {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--on-blue-dim);
+}
+.join-social span { margin-right: 6px; }
+.join-social a {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--r);
+  border: 1px solid var(--line-on-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--on-blue);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.join-social svg { width: 17px; height: 17px; }
+.join-social a:hover { background: #fff; border-color: #fff; color: var(--blue); }
 .cta-band .btn-ink { background: #fff; color: var(--blue); }
 .cta-band .btn-ink:hover { background: var(--gold); color: var(--ink); }
 
@@ -1028,18 +1187,6 @@ section { padding-block: var(--section-pad); position: relative; }
 /* ===================================================================
    TEASER SECTIONS (homepage previews of Team / Projects)
    =================================================================== */
-.explore-section { background: var(--paper); padding-block: clamp(52px, 6vw, 80px); }
-.explore-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: clamp(28px, 4vw, 52px);
-}
-.teaser-single {
-  border-top: 1px solid var(--line-strong);
-  padding-top: clamp(26px, 3vw, 36px);
-}
-.teaser-single .section-eyebrow { justify-content: flex-start; }
-.teaser-single .section-title { max-width: 16ch; margin-top: 14px; }
 .teaser-body {
   margin-top: 14px;
   color: var(--ink-soft);
@@ -1125,7 +1272,6 @@ section { padding-block: var(--section-pad); position: relative; }
   .page-header h1,
   .page-header p { grid-column: 1; grid-row: auto; align-self: auto; }
   .page-header p { margin-top: 16px; max-width: 52ch; }
-  .explore-grid { grid-template-columns: 1fr; gap: 32px; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .stat-item { padding-inline: 20px; }
   .stat-item:nth-child(2n+1) { border-left: none; padding-left: 0; }
@@ -1135,6 +1281,10 @@ section { padding-block: var(--section-pad); position: relative; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .footer-brand { grid-column: 1 / -1; }
   .chain { grid-template-columns: repeat(2, 1fr); }
+  .home-projects-head,
+  .home-team-grid { grid-template-columns: 1fr; }
+  .home-projects-head .teaser-body { margin-top: 16px; }
+  .face-stack { justify-content: flex-start; }
 }
 @media (max-width: 620px) {
   .nav-links { display: none; }
@@ -1148,11 +1298,19 @@ section { padding-block: var(--section-pad); position: relative; }
   .team-grid { grid-template-columns: 1fr 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
   .chain { grid-template-columns: 1fr; }
+  .join-steps { grid-template-columns: 1fr; gap: 20px; }
+  .face-stack { flex-wrap: nowrap; padding-left: 12px; }
+  .face { width: 52px; height: 52px; margin-left: -12px; font-size: 0.95rem; }
+  .face-more { font-size: 0.82rem; }
+  .visit-card { flex-wrap: wrap; }
+  .visit-card .teaser-cta { margin-left: 60px; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bottom { justify-content: flex-start; }
 }
 @media (max-width: 400px) {
   .hero h1 { font-size: 2.1rem; }
+  .face { width: 40px; height: 40px; margin-left: -10px; border-width: 2px; font-size: 0.8rem; }
+  .face-more { font-size: 0.72rem; }
   .stats-grid { grid-template-columns: 1fr; }
   .stat-item { border-left: none; padding-left: 0; }
   .stat-item:nth-child(n+2) { margin-top: 24px; }
@@ -1264,7 +1422,7 @@ section { padding-block: var(--section-pad); position: relative; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .rise, .rotator-word, .squiggle path, .float { animation: none !important; }
+  .rise, .rotator-word, .squiggle path, .float, .live-pip::after { animation: none !important; }
   .js [data-reveal]:not([data-visible]) { opacity: 1; transform: none; }
   .js .chain-node[data-reveal]:not([data-visible])::before { transform: none; }
   .rotator-word:first-child { opacity: 1; }
