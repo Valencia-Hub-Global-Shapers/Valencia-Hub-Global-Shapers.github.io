@@ -334,27 +334,27 @@
     }
   },
   {
-    "id": 12,
-    "name": "Carmen",
-    "photo": "/public/team/carmen.jpg",
+    "id": 16,
+    "name": "Iván Panushev",
+    "photo": "/public/team/ivan-panushev.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
       "val": "Shaper"
     },
     "bio": {
-      "es": "¡Todavía estamos recopilando la información de este miembro del equipo! Vuelve más adelante para saber más.",
-      "en": "We're still gathering this team member's information! Check back soon to learn more.",
-      "val": "Encara estem recopilant la informació d'aquest membre de l'equip! Torna més avant per a saber-ne més."
+      "es": "Iván es estudiante de Ingeniería Forestal, apasionado por el medio ambiente, la sostenibilidad y todo lo que tenga que ver con la naturaleza. Siempre con ganas de aportar su granito de arena para generar un impacto positivo en la ciudad en la que vive.",
+      "en": "Iván is a Forestry Engineering student who is passionate about the environment, sustainability and everything to do with nature. He is always eager to do his bit to create a positive impact on the city where he lives.",
+      "val": "Iván és estudiant d'Enginyeria Forestal, apassionat pel medi ambient, la sostenibilitat i tot el que tinga a veure amb la natura. Sempre amb ganes d'aportar el seu granet de sorra per a generar un impacte positiu en la ciutat on viu."
     },
     "links": {
-      "linkedin": ""
+      "linkedin": "https://www.linkedin.com/in/ivan-panushev"
     }
   },
   {
-    "id": 16,
-    "name": "Iván Panushev",
-    "photo": "/public/team/ivan-panushev.jpg",
+    "id": 12,
+    "name": "Carmen",
+    "photo": "/public/team/carmen.jpg",
     "role": {
       "es": "Shaper",
       "en": "Shaper",
